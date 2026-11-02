@@ -2,6 +2,9 @@
 name: NovaRide
 options:
   bundleIdPrefix: dk.novaride
+  # the Mac server builds with Xcode 15.4: the default project format of newer XcodeGen (77) is too new for it
+  projectFormat: xcode15_3
+  xcodeVersion: "1540"
   deploymentTarget:
     iOS: "16.0"
   createIntermediateGroups: true

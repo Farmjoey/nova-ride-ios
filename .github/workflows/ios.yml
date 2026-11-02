@@ -16,12 +16,20 @@ jobs:
         working-directory: ios
         run: swift run NovaChecks "$GITHUB_WORKSPACE"
 
+      - name: Use Xcode 15.4
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app
+
       - name: Install XcodeGen
         run: brew install xcodegen
 
-      - name: Generate the Xcode project
+      - name: Generate the Xcode project (in a format that Xcode 15.4 can open)
         working-directory: ios
-        run: xcodegen generate
+        run: |
+          xcodegen generate
+          # If this XcodeGen ignored `projectFormat`, bring the file down to the Xcode 15 format by hand.
+          P=NovaRide.xcodeproj/project.pbxproj
+          sed -i '' 's/objectVersion = 7[0-9];/objectVersion = 63;/; s/preferredProjectObjectVersion = 7[0-9];/preferredProjectObjectVersion = 63;/; s/compatibilityVersion = "Xcode 1[6-9]\.[0-9]";/compatibilityVersion = "Xcode 15.3";/' "$P"
+          grep -n "objectVersion\|compatibilityVersion" "$P"
 
       - name: Build (unsigned, for iPhone)
         working-directory: ios
