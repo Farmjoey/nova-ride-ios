@@ -1,0 +1,54 @@
+name: iphone-app
+
+# Builds the native iPhone app on a Mac runner and uploads an UNSIGNED NovaRide.ipa.
+# Sideloadly (Windows/Mac) signs it with your own free Apple ID when you install it (valid 7 days, then install again).
+on:
+  workflow_dispatch:
+
+jobs:
+  ipa:
+    runs-on: macos-14
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checks of the app's logic (protocol, widget compiler, session against a simulated board)
+        working-directory: ios
+        run: swift run NovaChecks "$GITHUB_WORKSPACE"
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate the Xcode project
+        working-directory: ios
+        run: xcodegen generate
+
+      - name: Build (unsigned, for iPhone)
+        working-directory: ios
+        run: |
+          set -o pipefail
+          xcodebuild -project NovaRide.xcodeproj -scheme NovaRide -configuration Release \
+            -sdk iphoneos -destination 'generic/platform=iOS' -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build 2>&1 | tee build.log | tail -n 40
+
+      - name: Package NovaRide.ipa
+        working-directory: ios
+        run: |
+          rm -rf Payload NovaRide.ipa
+          mkdir Payload
+          cp -R build/Build/Products/Release-iphoneos/NovaRide.app Payload/
+          zip -qr NovaRide.ipa Payload
+          ls -la NovaRide.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NovaRide-ipa
+          path: ios/NovaRide.ipa
+
+      - name: Build log (kept so a failure can be read afterwards)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: ios/build.log
+          if-no-files-found: ignore

@@ -1,0 +1,3375 @@
+{
+ "minimal_num": {
+  "design": {
+   "v": 2,
+   "name": "Mini",
+   "author": "a",
+   "items": [
+    {
+     "t": "num",
+     "x": 10,
+     "y": 40,
+     "src": "speed",
+     "font": "4"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020100002c00010701000201000602f0ffff000000000a00280000000000004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "rich": {
+  "design": {
+   "v": 2,
+   "name": "Rich",
+   "author": "a",
+   "pages": 2,
+   "bg": "#102030",
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 70,
+     "th": 10,
+     "src": "speed",
+     "max": 35,
+     "a0": 135,
+     "sweep": 270,
+     "knob": true,
+     "caps": true,
+     "ticks": true,
+     "warn": 25,
+     "bad": 32,
+     "color": "#33ccff"
+    },
+    {
+     "t": "button",
+     "x": 10,
+     "y": 200,
+     "w": 80,
+     "h": 30,
+     "action": "sport",
+     "text": "SPORT"
+    },
+    {
+     "t": "spark",
+     "x": 180,
+     "y": 150,
+     "w": 130,
+     "h": 50,
+     "src": "power",
+     "max": 3000,
+     "fill": true,
+     "page": 1
+    },
+    {
+     "t": "dot",
+     "x": 300,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "show": {
+      "src": "speed",
+      "op": ">",
+      "val": 3
+     }
+    },
+    {
+     "t": "icon",
+     "x": 10,
+     "y": 10,
+     "size": 24,
+     "icon": "battery",
+     "src": "battery",
+     "max": 100
+    },
+    {
+     "t": "segbar",
+     "x": 10,
+     "y": 100,
+     "w": 200,
+     "h": 14,
+     "n": 20,
+     "src": "battery",
+     "max": 100,
+     "round": true,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "line",
+     "x": 5,
+     "y": 5,
+     "w": 100,
+     "h": 0,
+     "th": 1
+    },
+    {
+     "t": "circle",
+     "x": 50,
+     "y": 50,
+     "r": 20,
+     "border": true,
+     "th": 3
+    },
+    {
+     "t": "rect",
+     "x": 4,
+     "y": 4,
+     "w": 100,
+     "h": 40,
+     "rad": 8,
+     "fill": true,
+     "color": "#ff8800"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 8,
+     "text": "HEJ",
+     "align": "center",
+     "font": "4"
+    },
+    {
+     "t": "bar",
+     "x": 20,
+     "y": 110,
+     "w": 160,
+     "h": 12,
+     "src": "power",
+     "min": -800,
+     "max": 6000,
+     "border": true,
+     "bidir": true,
+     "rad": 6
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020b020392010210010053504f5254000000000000000000000048454a0000000000000000000000000006117f3640fc0401110601f0ffff230000005a00680046000a003844870000080000190020000906000101f000ff000000000a00c80050001e000044870000000000000000000b0200060110ffffb80b0000b4009600820032000144870200000000000000000c11000601f0ffff000000002c010a00040000000044870001010300000000000d03000601f0ffff640000000a000a00180000000044870100000000000000000a03000601f0ffff640000000a006400c8000e00024487140018000014000a000800000601f0ffff0000000005000500640000000044870100000000000000000700000601f0ffff0000000032003200140000000444870300000000000000000600120601f0ffff0000000004000400640028000144870800000000000000000100000602f101ff00000000a0000800000000000044870000000000000000000302000601f0ffff7017e0fc14006e00a0000c00444487060000000000000000",
+  "pages": 2,
+  "file": []
+ },
+ "v1_ring_modebar": {
+  "design": {
+   "v": 1,
+   "name": "Old",
+   "author": "a",
+   "items": [
+    {
+     "t": "ring",
+     "x": 88,
+     "y": 126,
+     "r": 80,
+     "th": 14,
+     "src": "speed",
+     "max": 35
+    },
+    {
+     "t": "modebar"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702050400ec000107010057414c4b00000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000000401000601f0ffff2300000058007e0050000e000044870000000000000000000903000601f000ff000000000400ce004b001e000044870900000000000000000904000601f001ff000000005300ce004b001e000044870900000000000000000905000601f002ff00000000a200ce004b001e000044870900000000000000000906000601f003ff00000000f100ce004b001e00004487090000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "messages_action": {
+  "design": {
+   "v": 2,
+   "name": "Msg",
+   "author": "a",
+   "items": [
+    {
+     "t": "button",
+     "x": 5,
+     "y": 5,
+     "w": 60,
+     "h": 30,
+     "action": "none",
+     "text": "MSG"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020101003c00010701004d5347000000000000000000000000000900000101f000ff00000000050005003c001e00004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "odd_numbers": {
+  "design": {
+   "v": 2,
+   "name": "Odd",
+   "author": "a",
+   "items": [
+    {
+     "t": "num",
+     "x": "12",
+     "y": 40.5,
+     "src": "volt",
+     "dp": "1",
+     "font": 4,
+     "w": null
+    },
+    {
+     "t": "bar",
+     "x": 10.4,
+     "y": 99.5,
+     "w": "100",
+     "h": 10,
+     "src": "battery",
+     "max": 100.5,
+     "min": -0.5
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020200004c00010701000204000602f4ffff000000000c002900000000000044870000000000000000000303000601f0ffff650000000a00640064000a00004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "err_bad_arc": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 5,
+     "th": 10,
+     "src": "speed",
+     "max": 35
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Bue: radius 8-160, tykkelse 1 til under radius"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Bue: radius 8-160, tykkelse 1 til under radius"
+  ]
+ },
+ "err_big_font_unit": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "font": "8",
+     "unit": " km/h"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Skrift 6, 7 og 8 kan kun vise tal - brug en tekst ved siden af i stedet for enhed/præfiks"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Skrift 6, 7 og 8 kan kun vise tal - brug en tekst ved siden af i stedet for enhed/præfiks"
+  ]
+ },
+ "err_bad_page": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "dot",
+     "x": 1,
+     "y": 1,
+     "r": 4,
+     "src": "ble",
+     "page": 1
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Side findes ikke (siderne er 0-0)"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Side findes ikke (siderne er 0-0)"
+  ]
+ },
+ "err_unknown_type": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "nope"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Ukendt type"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Ukendt type"
+  ]
+ },
+ "err_unknown_src": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "banana"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Ukendt kilde"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Ukendt kilde"
+  ]
+ },
+ "err_unknown_color": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "pink"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Farve: ukendt farve"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Farve: ukendt farve"
+  ]
+ },
+ "err_bad_hex": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#12345"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Farve: farve skal være #rrggbb"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Farve: farve skal være #rrggbb"
+  ]
+ },
+ "err_text_missing": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Tekst mangler"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Tekst mangler"
+  ]
+ },
+ "err_text_font": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "A",
+     "font": "8"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Tekst kan kun bruge skrift 1, 2 eller 4"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Tekst kan kun bruge skrift 1, 2 eller 4"
+  ]
+ },
+ "err_non_ascii": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "Hej æ"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Tekst må kun have almindelige tegn (ASCII)",
+   "Element 1: Tekst mangler"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Tekst må kun have almindelige tegn (ASCII)",
+   "Element 1: Tekst mangler"
+  ]
+ },
+ "err_long_text": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "0123456789abcdef"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Tekst maks 15 tegn",
+   "Element 1: Tekst mangler"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Tekst maks 15 tegn",
+   "Element 1: Tekst mangler"
+  ]
+ },
+ "err_button_small": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "button",
+     "x": 1,
+     "y": 1,
+     "w": 10,
+     "h": 10,
+     "text": "X"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Knap: bredde 16-320, højde 12-200"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Knap: bredde 16-320, højde 12-200"
+  ]
+ },
+ "err_segments": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "segbar",
+     "x": 1,
+     "y": 1,
+     "w": 10,
+     "h": 10,
+     "n": 20,
+     "src": "speed",
+     "max": 35
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Segmenter: bredde (mindst 2 pr. segment) og højde 2-100"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Segmenter: bredde (mindst 2 pr. segment) og højde 2-100"
+  ]
+ },
+ "err_spark_thick": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "spark",
+     "x": 1,
+     "y": 1,
+     "w": 100,
+     "h": 40,
+     "src": "speed",
+     "max": 35,
+     "th": 9
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Graf: stregtykkelse 1-6"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Graf: stregtykkelse 1-6"
+  ]
+ },
+ "err_dot_mode": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "dot",
+     "x": 1,
+     "y": 1,
+     "r": 4,
+     "src": "mode"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Prik skal have en kilde"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Prik skal have en kilde"
+  ]
+ },
+ "err_icon": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "icon",
+     "x": 1,
+     "y": 1,
+     "size": 24,
+     "icon": "rocket"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Ukendt ikon"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Ukendt ikon"
+  ]
+ },
+ "err_off_screen": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 900,
+     "y": 1,
+     "src": "speed"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Ligger for langt uden for skærmen"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Ligger for langt uden for skærmen"
+  ]
+ },
+ "err_show_src": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "show": {
+      "src": "mode",
+      "op": ">",
+      "val": 1
+     }
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Vis kun når: ukendt kilde"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Vis kun når: ukendt kilde"
+  ]
+ },
+ "err_show_op": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "show": {
+      "src": "speed",
+      "op": "~",
+      "val": 1
+     }
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Vis kun når: ukendt sammenligning"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Vis kun når: ukendt sammenligning"
+  ]
+ },
+ "err_empty": {
+  "design": {
+   "v": 2,
+   "items": []
+  },
+  "ok": false,
+  "errors": [
+   "Widget skal have mindst ét element"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Widget skal have mindst ét element"
+  ]
+ },
+ "err_many_errors": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 5,
+     "th": 10,
+     "src": "speed",
+     "max": 35
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "banana"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Bue: radius 8-160, tykkelse 1 til under radius",
+   "Element 2: Tekst mangler",
+   "Element 3: Ukendt kilde"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Bue: radius 8-160, tykkelse 1 til under radius",
+   "Element 2: Tekst mangler",
+   "Element 3: Ukendt kilde"
+  ]
+ },
+ "err_too_many_items": {
+  "design": {
+   "v": 2,
+   "name": "Many",
+   "author": "a",
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Højst 48 elementer"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "Højst 48 elementer"
+  ]
+ },
+ "err_too_many_colors": {
+  "design": {
+   "v": 2,
+   "name": "Col",
+   "author": "a",
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#00141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#0a141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#14141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#1e141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#28141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#32141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#3c141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#46141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#50141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#5a141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#64141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#6e141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#78141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#82141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#8c141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#96141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#a0141e"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 17: For mange egne farver (maks 16)"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "Element 17: For mange egne farver (maks 16)"
+  ]
+ },
+ "err_too_many_strings": {
+  "design": {
+   "v": 2,
+   "name": "Str",
+   "author": "a",
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t0"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t1"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t2"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t3"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t4"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t5"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t6"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t7"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t8"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t9"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t10"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t11"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t12"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t13"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t14"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t15"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t16"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t17"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t18"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t19"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t20"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t21"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t22"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t23"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t24"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 25: For mange forskellige tekster (maks 24)",
+   "Element 25: Tekst mangler"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "Element 25: For mange forskellige tekster (maks 24)",
+   "Element 25: Tekst mangler"
+  ]
+ },
+ "starter_big-speed": {
+  "design": {
+   "v": 1,
+   "name": "Big speed",
+   "author": "NOVA",
+   "desc": "Kæmpe hastighed og en bred bjælke. Let at aflæse under kørsel",
+   "items": [
+    {
+     "t": "num",
+     "x": 160,
+     "y": 50,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "dp": 0,
+     "color": "text"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 130,
+     "text": "km/h",
+     "font": "4",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "bar",
+     "x": 20,
+     "y": 160,
+     "w": 280,
+     "h": 14,
+     "src": "speed",
+     "max": 35,
+     "color": "neon"
+    },
+    {
+     "t": "num",
+     "x": 20,
+     "y": 176,
+     "src": "battery",
+     "font": "4",
+     "align": "left",
+     "unit": "%",
+     "color": "ok"
+    },
+    {
+     "t": "num",
+     "x": 300,
+     "y": 176,
+     "src": "power",
+     "font": "4",
+     "align": "right",
+     "unit": " W",
+     "color": "text"
+    },
+    {
+     "t": "modebar"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020907009c01010701006b6d2f68000000000000000000000000250000000000000000000000000000002057000000000000000000000000000057414c4b00000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000000201000605f1ffff00000000a0003200000000000044870000000000000000000100050602f100ff00000000a0008200000000000044870000000000000000000301010601f0ffff230000001400a00018010e000444870000000000000000000203020602f001ff000000001400b000000000000044870000000000000000000202000602f202ff000000002c01b000000000000044870000000000000000000903000601f003ff000000000400ce004b001e000044870900000000000000000904000601f004ff000000005300ce004b001e000044870900000000000000000905000601f005ff00000000a200ce004b001e000044870900000000000000000906000601f006ff00000000f100ce004b001e00004487090000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_classic-ring": {
+  "design": {
+   "v": 1,
+   "name": "Classic ring",
+   "author": "NOVA",
+   "desc": "Ringmaaler med hastighed, effekt, batteri og temperaturer",
+   "items": [
+    {
+     "t": "ring",
+     "x": 88,
+     "y": 126,
+     "r": 80,
+     "th": 14,
+     "src": "speed",
+     "max": 35,
+     "color": "neon"
+    },
+    {
+     "t": "num",
+     "x": 88,
+     "y": 88,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "dp": 0,
+     "color": "text"
+    },
+    {
+     "t": "text",
+     "x": 88,
+     "y": 158,
+     "text": "km/h",
+     "font": "4",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 88,
+     "y": 66,
+     "src": "mode",
+     "font": "2",
+     "align": "center",
+     "color": "ok"
+    },
+    {
+     "t": "num",
+     "x": 292,
+     "y": 30,
+     "src": "power",
+     "font": "6",
+     "align": "right",
+     "color": "text"
+    },
+    {
+     "t": "bar",
+     "x": 184,
+     "y": 80,
+     "w": 122,
+     "h": 8,
+     "src": "power",
+     "max": 1000,
+     "color": "neon"
+    },
+    {
+     "t": "num",
+     "x": 184,
+     "y": 94,
+     "src": "current",
+     "font": "2",
+     "align": "left",
+     "dp": 1,
+     "unit": " A",
+     "color": "text"
+    },
+    {
+     "t": "num",
+     "x": 184,
+     "y": 112,
+     "src": "battery",
+     "font": "4",
+     "align": "left",
+     "unit": "%",
+     "color": "ok"
+    },
+    {
+     "t": "num",
+     "x": 306,
+     "y": 112,
+     "src": "volt",
+     "font": "4",
+     "align": "right",
+     "dp": 1,
+     "unit": "V",
+     "color": "text"
+    },
+    {
+     "t": "bar",
+     "x": 184,
+     "y": 140,
+     "w": 122,
+     "h": 10,
+     "src": "battery",
+     "max": 100,
+     "color": "ok"
+    },
+    {
+     "t": "num",
+     "x": 184,
+     "y": 156,
+     "src": "trip",
+     "font": "2",
+     "align": "left",
+     "dp": 1,
+     "unit": " km",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 184,
+     "y": 171,
+     "src": "total",
+     "font": "2",
+     "align": "left",
+     "unit": " km",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 56,
+     "y": 186,
+     "src": "temp",
+     "font": "2",
+     "align": "center",
+     "unit": "C",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 120,
+     "y": 186,
+     "src": "motortemp",
+     "font": "2",
+     "align": "center",
+     "unit": "C",
+     "color": "dim"
+    },
+    {
+     "t": "modebar"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702120a00ec02010701006b6d2f68000000000000000000000000204100000000000000000000000000002500000000000000000000000000000056000000000000000000000000000000206b6d000000000000000000000000004300000000000000000000000000000057414c4b00000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000000401010601f0ffff2300000058007e0050000e000044870000000000000000000201000605f1ffff0000000058005800000000000044870000000000000000000100050602f100ff0000000058009e0000000000004487000000000000000000020a020601f1ffff0000000058004200000000000044870000000000000000000202000603f2ffff0000000024011e00000000000044870000000000000000000302010601f0ffffe8030000b80050007a0008000444870000000000000000000205000601f401ff00000000b8005e00000000000044870000000000000000000203020602f002ff00000000b8007000000000000044870000000000000000000204000602f603ff0000000032017000000000000044870000000000000000000303020601f0ffff64000000b8008c007a000a000444870000000000000000000208050601f404ff00000000b8009c00000000000044870000000000000000000209050601f004ff00000000b800ab00000000000044870000000000000000000206050601f105ff000000003800ba00000000000044870000000000000000000207050601f105ff000000007800ba00000000000044870000000000000000000903000601f006ff000000000400ce004b001e000044870900000000000000000904000601f007ff000000005300ce004b001e000044870900000000000000000905000601f008ff00000000a200ce004b001e000044870900000000000000000906000601f009ff00000000f100ce004b001e00004487090000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_cockpit": {
+  "design": {
+   "v": 2,
+   "name": "Cockpit",
+   "author": "NOVA",
+   "desc": "To sider: hovedside med buer og en side med grafer",
+   "pages": 2,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "arc",
+     "x": 88,
+     "y": 118,
+     "r": 84,
+     "th": 16,
+     "a0": 135,
+     "sweep": 270,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "caps": true,
+     "ticks": true,
+     "warn": 25,
+     "bad": 32
+    },
+    {
+     "t": "num",
+     "x": 88,
+     "y": 86,
+     "src": "speed",
+     "font": "8",
+     "align": "center"
+    },
+    {
+     "t": "text",
+     "x": 88,
+     "y": 150,
+     "text": "KM/H",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 88,
+     "y": 172,
+     "src": "mode",
+     "font": "2",
+     "align": "center",
+     "color": "ok"
+    },
+    {
+     "t": "arc",
+     "x": 250,
+     "y": 56,
+     "r": 40,
+     "th": 8,
+     "a0": 135,
+     "sweep": 270,
+     "src": "power",
+     "min": 0,
+     "max": 3000,
+     "color": "warn",
+     "color2": "panel",
+     "caps": true,
+     "warn": 2200,
+     "bad": 2800,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 250,
+     "y": 44,
+     "src": "power",
+     "font": "2",
+     "align": "center"
+    },
+    {
+     "t": "text",
+     "x": 250,
+     "y": 62,
+     "text": "WATT",
+     "font": "1",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "icon",
+     "x": 190,
+     "y": 112,
+     "size": 22,
+     "icon": "battery",
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 220,
+     "y": 114,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "segbar",
+     "x": 190,
+     "y": 146,
+     "w": 122,
+     "h": 12,
+     "n": 16,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "round": true,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 190,
+     "y": 168,
+     "src": "volt",
+     "font": "2",
+     "dp": 1,
+     "unit": " V"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 168,
+     "src": "current",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "unit": " A"
+    },
+    {
+     "t": "icon",
+     "x": 190,
+     "y": 190,
+     "size": 18,
+     "icon": "thermo",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 212,
+     "y": 190,
+     "src": "temp",
+     "font": "2",
+     "unit": "C",
+     "warn": 60,
+     "bad": 75
+    },
+    {
+     "t": "icon",
+     "x": 262,
+     "y": 11,
+     "size": 20,
+     "icon": "warning",
+     "color": "bad",
+     "show": {
+      "src": "alert",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 206,
+     "w": 60,
+     "h": 28,
+     "action": "eco",
+     "text": "ECO",
+     "font": "2",
+     "rad": 9,
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 74,
+     "y": 206,
+     "w": 60,
+     "h": 28,
+     "action": "drive",
+     "text": "DRIVE",
+     "font": "2",
+     "rad": 9,
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 140,
+     "y": 206,
+     "w": 60,
+     "h": 28,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "2",
+     "rad": 9,
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 262,
+     "y": 206,
+     "w": 50,
+     "h": 28,
+     "action": "nextpage",
+     "text": ">",
+     "font": "4",
+     "rad": 9,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 8,
+     "text": "SPEED",
+     "font": "1",
+     "color": "dim",
+     "page": 1
+    },
+    {
+     "t": "spark",
+     "x": 8,
+     "y": 20,
+     "w": 304,
+     "h": 62,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "fill": true,
+     "th": 2,
+     "page": 1
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 90,
+     "text": "POWER",
+     "font": "1",
+     "color": "dim",
+     "page": 1
+    },
+    {
+     "t": "spark",
+     "x": 8,
+     "y": 102,
+     "w": 304,
+     "h": 50,
+     "src": "power",
+     "min": -500,
+     "max": 3000,
+     "color": "warn",
+     "color2": "panel",
+     "fill": true,
+     "page": 1
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 160,
+     "text": "VOLT",
+     "font": "1",
+     "color": "dim",
+     "page": 1
+    },
+    {
+     "t": "spark",
+     "x": 8,
+     "y": 172,
+     "w": 200,
+     "h": 28,
+     "src": "volt",
+     "min": 60,
+     "max": 88,
+     "color": "ok",
+     "color2": "panel",
+     "page": 1
+    },
+    {
+     "t": "num",
+     "x": 220,
+     "y": 176,
+     "src": "maxspeed",
+     "font": "4",
+     "dp": 0,
+     "pre": "MAX ",
+     "color": "text",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 262,
+     "y": 206,
+     "w": 50,
+     "h": 28,
+     "action": "nextpage",
+     "text": ">",
+     "font": "4",
+     "rad": 9,
+     "page": 1
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021b0e004c04020701004b4d2f48000000000000000000000000574154540000000000000000000000002500000000000000000000000000000020560000000000000000000000000000204100000000000000000000000000004300000000000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000003e00000000000000000000000000000053504545440000000000000000000000504f5745520000000000000000000000564f4c540000000000000000000000004d4158200000000000000000000000000401010601f0ffff2300000058007600540010003044870000080000190020000201000605f1ffff0000000058005600000000000044870000000000000000000100050601f100ff000000005800960000000000004487000000000000000000020a020601f1ffff000000005800ac0000000000004487000000000000000000040203060100ffffb80b0000fa0038002800080020448700000800009808f00a0202000601f1ffff00000000fa002c00000000000044870000000000000000000100050600f101ff00000000fa003e00000000000044870000000000000000000d03020601f0ffff64000000be00700016000000004487010018000014000a000203000602f002ff00000000dc00720000000000004487000018000014000a000a03020601f0ffff64000000be0092007a000c00024487100018000014000a000204000601f403ff00000000be00a800000000000044870000000000000000000205000601f604ff000000003801a800000000000044870000000000000000000d00050601f0ffff00000000be00be00120000000044870200000000000000000206000601f005ff00000000d400be000000000000448700000800003c004b000d00040601f0ffff0000000006010b001400000000448704150301000000000009040001010006ff000000000800ce003c001c0000448709000000000000000009050001010007ff000000004a00ce003c001c0000448709000000000000000009060001010008ff000000008c00ce003c001c0000448709000000000000000009010001020009ff000000000601ce0032001c000044870900000000000000000100050600100aff0000000008000800000000000044870000000000000000000b0101060110ffff230000000800140030013e000144870200000000000000000100050600100bff0000000008005a00000000000044870000000000000000000b0203060110ffffb80b0cfe08006600300132000144870200000000000000000100050600100cff000000000800a000000000000044870000000000000000000b0402060110ffff58003c000800ac00c8001c00004487020000000000000000020c00060210ff0d00000000dc00b0000000000000448700000000000000000009010001021009ff000000000601ce0032001c00004487090000000000000000",
+  "pages": 2,
+  "file": []
+ },
+ "starter_minimal": {
+  "design": {
+   "v": 1,
+   "name": "Minimal",
+   "author": "NOVA",
+   "desc": "Kun hastighed og batteri",
+   "items": [
+    {
+     "t": "num",
+     "x": 160,
+     "y": 62,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "dp": 0,
+     "color": "text"
+    },
+    {
+     "t": "num",
+     "x": 20,
+     "y": 180,
+     "src": "battery",
+     "font": "4",
+     "align": "left",
+     "unit": "%",
+     "color": "ok"
+    },
+    {
+     "t": "num",
+     "x": 300,
+     "y": 180,
+     "src": "volt",
+     "font": "4",
+     "align": "right",
+     "dp": 1,
+     "unit": "V",
+     "color": "dim"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020302008c000107010025000000000000000000000000000000560000000000000000000000000000000201000605f1ffff00000000a0003e00000000000044870000000000000000000203020602f000ff000000001400b400000000000044870000000000000000000204050602f601ff000000002c01b40000000000004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_power-focus": {
+  "design": {
+   "v": 1,
+   "name": "Power focus",
+   "author": "NOVA",
+   "desc": "Effekt og strøm i centrum",
+   "items": [
+    {
+     "t": "num",
+     "x": 160,
+     "y": 40,
+     "src": "power",
+     "font": "6",
+     "align": "center",
+     "color": "text"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 92,
+     "text": "WATT",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "bar",
+     "x": 20,
+     "y": 112,
+     "w": 280,
+     "h": 12,
+     "src": "power",
+     "max": 1000,
+     "color": "neon"
+    },
+    {
+     "t": "num",
+     "x": 20,
+     "y": 136,
+     "src": "current",
+     "font": "4",
+     "align": "left",
+     "dp": 1,
+     "unit": " A",
+     "color": "text"
+    },
+    {
+     "t": "num",
+     "x": 300,
+     "y": 136,
+     "src": "volt",
+     "font": "4",
+     "align": "right",
+     "dp": 1,
+     "unit": " V",
+     "color": "text"
+    },
+    {
+     "t": "num",
+     "x": 20,
+     "y": 172,
+     "src": "speed",
+     "font": "4",
+     "align": "left",
+     "unit": " km/h",
+     "color": "ok"
+    },
+    {
+     "t": "num",
+     "x": 300,
+     "y": 172,
+     "src": "battery",
+     "font": "4",
+     "align": "right",
+     "unit": "%",
+     "color": "ok"
+    },
+    {
+     "t": "modebar"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020b0900fc0101070100574154540000000000000000000000002041000000000000000000000000000020560000000000000000000000000000206b6d2f6800000000000000000000002500000000000000000000000000000057414c4b00000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000000202000603f1ffff00000000a0002800000000000044870000000000000000000100050601f100ff00000000a0005c00000000000044870000000000000000000302010601f0ffffe80300001400700018010c000444870000000000000000000205000602f401ff0000000014008800000000000044870000000000000000000204000602f602ff000000002c018800000000000044870000000000000000000201020602f003ff000000001400ac00000000000044870000000000000000000203020602f204ff000000002c01ac00000000000044870000000000000000000903000601f005ff000000000400ce004b001e000044870900000000000000000904000601f006ff000000005300ce004b001e000044870900000000000000000905000601f007ff00000000a200ce004b001e000044870900000000000000000906000601f008ff00000000f100ce004b001e00004487090000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_racer": {
+  "design": {
+   "v": 2,
+   "name": "Racer",
+   "author": "NOVA",
+   "desc": "Kaempe hastighed, farveskift naar du naermer dig graenser",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "num",
+     "x": 160,
+     "y": 6,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "warn": 25,
+     "bad": 32
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 84,
+     "text": "KM/H",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "segbar",
+     "x": 8,
+     "y": 108,
+     "w": 304,
+     "h": 22,
+     "n": 36,
+     "src": "speed",
+     "max": 36,
+     "color": "neon",
+     "color2": "panel",
+     "round": true,
+     "warn": 25,
+     "bad": 32
+    },
+    {
+     "t": "num",
+     "x": 8,
+     "y": 146,
+     "src": "power",
+     "font": "4",
+     "pre": "",
+     "unit": " W"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 146,
+     "src": "battery",
+     "font": "4",
+     "align": "right",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "bar",
+     "x": 8,
+     "y": 182,
+     "w": 304,
+     "h": 8,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "round": true,
+     "rad": 4,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 8,
+     "y": 200,
+     "src": "volt",
+     "font": "2",
+     "dp": 1,
+     "unit": " V",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 200,
+     "src": "maxspeed",
+     "font": "2",
+     "align": "center",
+     "pre": "TOP ",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 200,
+     "src": "ridetime",
+     "font": "2",
+     "align": "right",
+     "unit": " min",
+     "color": "dim"
+    },
+    {
+     "t": "icon",
+     "x": 10,
+     "y": 224,
+     "size": 14,
+     "icon": "bolt",
+     "color": "warn",
+     "show": {
+      "src": "power",
+      "op": ">",
+      "val": 2500
+     }
+    },
+    {
+     "t": "icon",
+     "x": 30,
+     "y": 224,
+     "size": 14,
+     "icon": "thermo",
+     "color": "bad",
+     "show": {
+      "src": "temp",
+      "op": ">",
+      "val": 65
+     }
+    },
+    {
+     "t": "icon",
+     "x": 50,
+     "y": 224,
+     "size": 14,
+     "icon": "lock",
+     "color": "warn",
+     "show": {
+      "src": "limit",
+      "op": "==",
+      "val": 1
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020c0600ec01010701004b4d2f48000000000000000000000000205700000000000000000000000000002500000000000000000000000000000020560000000000000000000000000000544f5020000000000000000000000000206d696e0000000000000000000000000201000605f1ffff00000000a0000600000000000044870000080000190020000100050601f100ff00000000a0005400000000000044870000000000000000000a01010601f0ffff2400000008006c00300116000244872400080000190020000202000602f001ff0000000008009200000000000044870000000000000000000203000602f202ff000000003801920000000000004487000018000014000a000303020601f0ffff640000000800b60030010800024487040018000014000a000204050601f403ff000000000800c80000000000004487000000000000000000020c050601f1ff0400000000a000c800000000000044870000000000000000000210050601f205ff000000003801c800000000000044870000000000000000000d00030601f0ffff000000000a00e0000e000000004487000201c409000000000d00040601f0ffff000000001e00e0000e0000000044870206014100000000000d00030601f0ffff000000003200e0000e000000004487051303010000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_retro-amber": {
+  "design": {
+   "v": 2,
+   "name": "Retro amber",
+   "author": "NOVA",
+   "desc": "Sort skaerm med rav-farvede 7-segment tal",
+   "pages": 1,
+   "bg": "black",
+   "items": [
+    {
+     "t": "segbar",
+     "x": 10,
+     "y": 10,
+     "w": 300,
+     "h": 16,
+     "n": 30,
+     "src": "speed",
+     "max": 35,
+     "color": "#ffb000",
+     "color2": "#2a1c00",
+     "warn": 28,
+     "bad": 33
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 40,
+     "src": "speed",
+     "font": "7",
+     "align": "center",
+     "color": "#ffb000"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 92,
+     "text": "KM/H",
+     "font": "2",
+     "align": "center",
+     "color": "#6b4a00"
+    },
+    {
+     "t": "num",
+     "x": 10,
+     "y": 120,
+     "src": "power",
+     "font": "6",
+     "color": "#ffb000"
+    },
+    {
+     "t": "text",
+     "x": 150,
+     "y": 150,
+     "text": "W",
+     "font": "2",
+     "color": "#6b4a00"
+    },
+    {
+     "t": "num",
+     "x": 10,
+     "y": 176,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "color": "#ffb000",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "segbar",
+     "x": 10,
+     "y": 206,
+     "w": 190,
+     "h": 18,
+     "n": 20,
+     "src": "battery",
+     "max": 100,
+     "color": "#ffb000",
+     "color2": "#2a1c00",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 310,
+     "y": 120,
+     "src": "volt",
+     "font": "4",
+     "align": "right",
+     "dp": 1,
+     "color": "#ffb000",
+     "unit": "V"
+    },
+    {
+     "t": "num",
+     "x": 310,
+     "y": 150,
+     "src": "current",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "color": "#6b4a00",
+     "unit": "A"
+    },
+    {
+     "t": "num",
+     "x": 310,
+     "y": 176,
+     "src": "temp",
+     "font": "4",
+     "align": "right",
+     "unit": "C",
+     "color": "#ffb000",
+     "warn": 60,
+     "bad": 75
+    },
+    {
+     "t": "text",
+     "x": 214,
+     "y": 206,
+     "text": "HOT",
+     "font": "4",
+     "color": "bad",
+     "show": {
+      "src": "temp",
+      "op": ">=",
+      "val": 70
+     }
+    },
+    {
+     "t": "dot",
+     "x": 300,
+     "y": 214,
+     "r": 7,
+     "src": "limit",
+     "color": "warn",
+     "color2": "#2a1c00"
+    },
+    {
+     "t": "line",
+     "x": 10,
+     "y": 112,
+     "w": 300,
+     "h": 0,
+     "th": 1,
+     "color": "#6b4a00"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020d07032202010a01004b4d2f480000000000000000000000005700000000000000000000000000000025000000000000000000000000000000560000000000000000000000000000004100000000000000000000000000000043000000000000000000000000000000484f540000000000000000000000000080fde028406a0a01101101f0ffff230000000a000a002c0110000044871e000800001c0021000201100604f1ffff00000000a0002800000000000044870000000000000000000100120601f100ff00000000a0005c00000000000044870000000000000000000202100603f0ffff000000000a007800000000000044870000000000000000000100120601f001ff0000000096009600000000000044870000000000000000000203100602f002ff000000000a00b00000000000004487000018000014000a000a03101101f0ffff640000000a00ce00be001200004487140018000014000a000204100602f603ff0000000036017800000000000044870000000000000000000205120601f604ff0000000036019600000000000044870000000000000000000206100602f205ff000000003601b0000000000000448700000800003c004b000100040602f006ff00000000d600ce00000000000044870006054600000000000c13031101f0ffff000000002c01d600070000000044870000000000000000000800120601f0ffff000000000a0070002c010000004487010000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_rings": {
+  "design": {
+   "v": 2,
+   "name": "Rings",
+   "author": "NOVA",
+   "desc": "Tre ringe: fart, effekt og batteri",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "arc",
+     "x": 100,
+     "y": 120,
+     "r": 100,
+     "th": 14,
+     "a0": 120,
+     "sweep": 300,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "caps": true
+    },
+    {
+     "t": "arc",
+     "x": 100,
+     "y": 120,
+     "r": 80,
+     "th": 12,
+     "a0": 120,
+     "sweep": 300,
+     "src": "power",
+     "max": 3000,
+     "color": "warn",
+     "color2": "panel",
+     "caps": true
+    },
+    {
+     "t": "arc",
+     "x": 100,
+     "y": 120,
+     "r": 62,
+     "th": 10,
+     "a0": 120,
+     "sweep": 300,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "caps": true,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 100,
+     "y": 88,
+     "src": "speed",
+     "font": "6",
+     "align": "center"
+    },
+    {
+     "t": "text",
+     "x": 100,
+     "y": 138,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 220,
+     "y": 40,
+     "src": "speed",
+     "font": "4",
+     "unit": " km/h"
+    },
+    {
+     "t": "num",
+     "x": 220,
+     "y": 90,
+     "src": "power",
+     "font": "4",
+     "unit": " W",
+     "color": "warn"
+    },
+    {
+     "t": "num",
+     "x": 220,
+     "y": 140,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "color": "ok",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 220,
+     "y": 176,
+     "src": "volt",
+     "font": "2",
+     "dp": 1,
+     "unit": " V",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 220,
+     "y": 196,
+     "src": "temp",
+     "font": "2",
+     "unit": " C",
+     "color": "dim"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020a0600ac01010701006b6d2f68000000000000000000000000206b6d2f680000000000000000000000205700000000000000000000000000002500000000000000000000000000000020560000000000000000000000000000204300000000000000000000000000000401010601f0ffff230000006400780064000e00203c960000000000000000000402030601f0ffffb80b00006400780050000c00203c960000000000000000000403020601f0ffff64000000640078003e000a00203c96000018000014000a000201000603f1ffff0000000064005800000000000044870000000000000000000100050601f100ff0000000064008a00000000000044870000000000000000000201000602f001ff00000000dc002800000000000044870000000000000000000202030602f002ff00000000dc005a00000000000044870000000000000000000203020602f003ff00000000dc008c0000000000004487000018000014000a000204050601f404ff00000000dc00b000000000000044870000000000000000000206050601f005ff00000000dc00c40000000000004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_standard": {
+  "design": {
+   "v": 2,
+   "name": "Standard",
+   "author": "NOVA",
+   "desc": "Standard-skaermen. Du kan aendre alt: tekster, knapper og handlinger",
+   "pages": 2,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 82,
+     "th": 9,
+     "a0": 135,
+     "sweep": 270,
+     "src": "speed",
+     "max": 35,
+     "color": "#bfe6ea",
+     "color2": "neon",
+     "caps": true,
+     "knob": true,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 56,
+     "text": "_NOVA RIDE_",
+     "font": "1",
+     "align": "center",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 90,
+     "y": 67,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 150,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 290,
+     "y": 14,
+     "src": "total",
+     "font": "2",
+     "align": "right",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 290,
+     "y": 34,
+     "src": "power",
+     "font": "6",
+     "align": "right",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 296,
+     "y": 54,
+     "text": "W",
+     "font": "2",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 176,
+     "y": 87,
+     "w": 138,
+     "h": 6,
+     "src": "power",
+     "min": -800,
+     "max": 6000,
+     "color": "#d6d6d6",
+     "color2": "#4a4a4a",
+     "border": true,
+     "round": true,
+     "rad": 3,
+     "bidir": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 178,
+     "y": 100,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 314,
+     "y": 106,
+     "src": "volt",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "unit": " V",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 176,
+     "y": 133,
+     "w": 138,
+     "h": 14,
+     "src": "battery",
+     "max": 100,
+     "color": "#d6d6d6",
+     "color2": "#4a4a4a",
+     "border": true,
+     "round": true,
+     "rad": 7,
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 178,
+     "y": 158,
+     "src": "temp",
+     "font": "1",
+     "pre": "CTRL ",
+     "unit": "C",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 314,
+     "y": 156,
+     "src": "current",
+     "font": "1",
+     "align": "right",
+     "pre": "BATT ",
+     "unit": " A",
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 178,
+     "y": 175,
+     "w": 97,
+     "h": 47,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "4",
+     "rad": 13,
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 281,
+     "y": 175,
+     "w": 33,
+     "h": 47,
+     "action": "none",
+     "text": "RACE",
+     "font": "1",
+     "rad": 11,
+     "color": "#9b5a64",
+     "color2": "#9b5a64",
+     "show": {
+      "src": "limit",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 281,
+     "y": 175,
+     "w": 33,
+     "h": 47,
+     "action": "nextpage",
+     "text": "RACE",
+     "font": "1",
+     "rad": 11,
+     "color": "bad",
+     "color2": "bad",
+     "show": {
+      "src": "limit",
+      "op": "==",
+      "val": 0
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 84,
+     "y": 10,
+     "r": 4,
+     "src": "limit",
+     "color": "warn",
+     "color2": "bg",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 92,
+     "y": 2,
+     "text": "LIMIT 20",
+     "font": "2",
+     "color": "warn",
+     "show": {
+      "src": "limit",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 8,
+     "text": "MODES",
+     "font": "4",
+     "color": "neon",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "walk",
+     "text": "WALK",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "eco",
+     "text": "ECO",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "drive",
+     "text": "DRIVE",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "prevtrack",
+     "text": "<<",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "playpause",
+     "text": "PLAY",
+     "font": "2",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "nexttrack",
+     "text": ">>",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "prevpage",
+     "text": "BACK",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "safety",
+     "text": "20 KM/H",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "settings",
+     "text": "SETTINGS",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702221704c405020701005f4e4f564120524944455f00000000006b6d2f68000000000000000000000000570000000000000000000000000000002500000000000000000000000000000020560000000000000000000000000000430000000000000000000000000000004354524c200000000000000000000000204100000000000000000000000000004241545420000000000000000000000053504f525400000000000000000000005241434500000000000000000000000044454d4f0000000000000000000000004c494d495420323000000000000000004d4f444553000000000000000000000057414c4b00000000000000000000000045434f00000000000000000000000000445249564500000000000000000000003c3c0000000000000000000000000000504c41590000000000000000000000003e3e00000000000000000000000000004241434b0000000000000000000000003230204b4d2f4800000000000000000053455454494e475300000000000000003dbfbad6494acc9a040110010100ffff230000005a0068005200090028448700000000000000000001000006000100ff000000005a00380000000000004487000000000000000000020100060501ffff000000005a0043000000000000448700000000000000000001000506010101ff000000005a00960000000000004487000000000000000000020905060102ffff0000000022010e0000000000004487000000000000000000020200060302ffff00000000220122000000000000448700000000000000000001000506010002ff000000002801360000000000004487000000000000000000030211120100ffff7017e0fcb00057008a00060046448703000000000000000002030006020003ff00000000b200640000000000004487000018000014000a0002040006010604ff000000003a016a0000000000004487000000000000000000030311120100ffff64000000b00085008a000e00064487070018000014000a00020600060000050600000000b2009e00000000000044870000000000000000000205000600020708000000003a019c000000000000448700000000000000000009060001020009ff00000000b200af0061002f000044870d00000000000000000900131300000aff000000001901af0021002f000044870b13030100000000000901040400000aff000000001901af0021002f000044870b13030000000000000c1102050100ffff000000000e000a00040000000044870000000000000000000100050601000bff0000000018000200000000000044870014030100000000000c1303070100ffff0000000054000a00040000000044870000000000000000000100030601000cff000000005c000200000000000044870013030100000000000c1405050100ffff0000000028010800020000000044870000000000000000000c1405050100ffff0000000030010800020000000044870000000000000000000c1405050100ffff0000000038010800020000000044870000000000000000000100010602100dff0000000008000800000000000044870000000000000000000903000102100eff000000000800280094002c000044870c00000000000000000904000102100fff00000000a400280094002c000044870c000000000000000009050001021010ff0000000008005c0094002c000044870c000000000000000009060001021009ff00000000a4005c0094002c000044870c000000000000000009070001021011ff00000000080092005c0028000044870c000000000000000009080001011012ff00000000720092005c0028000044870c000000000000000009090001021013ff00000000dc0092005c0028000044870c000000000000000009020001011014ff000000000800c4005c0024000044870a0000000000000000090d0001011015ff000000007200c4005c0024000044870a0000000000000000090a0001011016ff00000000dc00c4005c0024000044870a0000000000000000",
+  "pages": 2,
+  "file": []
+ },
+ "starter_steel-dashboard": {
+  "design": {
+   "v": 2,
+   "name": "Steel dashboard",
+   "author": "NOVA",
+   "desc": "Som standard-dashboardet, men du kan flytte og aendre alt",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 82,
+     "th": 9,
+     "a0": 135,
+     "sweep": 270,
+     "src": "speed",
+     "max": 35,
+     "color": "#bfe6ea",
+     "color2": "neon",
+     "caps": true,
+     "knob": true
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 60,
+     "text": "_STEEL_",
+     "font": "2",
+     "align": "center",
+     "color": "text"
+    },
+    {
+     "t": "num",
+     "x": 90,
+     "y": 68,
+     "src": "speed",
+     "font": "8",
+     "align": "center"
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 150,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 290,
+     "y": 18,
+     "src": "total",
+     "font": "2",
+     "align": "right",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 290,
+     "y": 33,
+     "src": "power",
+     "font": "6",
+     "align": "right"
+    },
+    {
+     "t": "text",
+     "x": 296,
+     "y": 52,
+     "text": "W",
+     "font": "2",
+     "color": "dim"
+    },
+    {
+     "t": "bar",
+     "x": 176,
+     "y": 87,
+     "w": 138,
+     "h": 6,
+     "src": "power",
+     "min": -800,
+     "max": 6000,
+     "color": "#d6d6d6",
+     "color2": "#4a4a4a",
+     "border": true,
+     "round": true,
+     "rad": 3,
+     "bidir": true
+    },
+    {
+     "t": "num",
+     "x": 178,
+     "y": 100,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 314,
+     "y": 106,
+     "src": "volt",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "unit": " V"
+    },
+    {
+     "t": "bar",
+     "x": 176,
+     "y": 133,
+     "w": 138,
+     "h": 14,
+     "src": "battery",
+     "max": 100,
+     "color": "#d6d6d6",
+     "color2": "#4a4a4a",
+     "border": true,
+     "round": true,
+     "rad": 7,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 178,
+     "y": 158,
+     "src": "temp",
+     "font": "1",
+     "pre": "CTRL ",
+     "unit": "C"
+    },
+    {
+     "t": "num",
+     "x": 314,
+     "y": 156,
+     "src": "current",
+     "font": "1",
+     "align": "right",
+     "pre": "BATT ",
+     "unit": " A"
+    },
+    {
+     "t": "button",
+     "x": 178,
+     "y": 175,
+     "w": 97,
+     "h": 47,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "4",
+     "rad": 13
+    },
+    {
+     "t": "button",
+     "x": 281,
+     "y": 175,
+     "w": 33,
+     "h": 47,
+     "action": "nextpage",
+     "text": "RACE",
+     "font": "1",
+     "rad": 11,
+     "color": "bad",
+     "color2": "bad",
+     "show": {
+      "src": "limit",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 14,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim"
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 8,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "dot",
+     "x": 70,
+     "y": 15,
+     "r": 4,
+     "src": "limit",
+     "color": "warn",
+     "color2": "bg"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702120c031203010701005f535445454c5f0000000000000000006b6d2f68000000000000000000000000570000000000000000000000000000002500000000000000000000000000000020560000000000000000000000000000430000000000000000000000000000004354524c200000000000000000000000204100000000000000000000000000004241545420000000000000000000000053504f525400000000000000000000005241434500000000000000000000000044454d4f0000000000000000000000003dbfbad6494a0401100101f0ffff230000005a006800520009002844870000000000000000000100000601f100ff000000005a003c00000000000044870000000000000000000201000605f1ffff000000005a004400000000000044870000000000000000000100050601f101ff000000005a009600000000000044870000000000000000000209050601f2ffff0000000022011200000000000044870000000000000000000202000603f2ffff0000000022012100000000000044870000000000000000000100050601f002ff0000000028013400000000000044870000000000000000000302111201f0ffff7017e0fcb00057008a0006004644870300000000000000000203000602f003ff00000000b200640000000000004487000018000014000a000204000601f604ff000000003a016a00000000000044870000000000000000000303111201f0ffff64000000b00085008a000e00064487070018000014000a000206000600f0050600000000b2009e00000000000044870000000000000000000205000600f20708000000003a019c00000000000044870000000000000000000906000102f009ff00000000b200af0061002f000044870d00000000000000000901040400f00aff000000001901af0021002f000044870b13030000000000000c11020501f0ffff000000000e000e00040000000044870000000000000000000100050601f00bff0000000018000800000000000044870014030100000000000c13030701f0ffff0000000046000f0004000000004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_trip-stats": {
+  "design": {
+   "v": 2,
+   "name": "Trip stats",
+   "author": "NOVA",
+   "desc": "Ture, tophastighed, energi og en graf",
+   "pages": 2,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "text",
+     "x": 8,
+     "y": 6,
+     "text": "THIS RIDE",
+     "font": "4",
+     "color": "neon"
+    },
+    {
+     "t": "line",
+     "x": 8,
+     "y": 34,
+     "w": 304,
+     "h": 0,
+     "th": 1,
+     "color": "dim"
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 44,
+     "text": "Top speed",
+     "font": "2",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 44,
+     "src": "maxspeed",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "unit": " km/h"
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 68,
+     "text": "Peak power",
+     "font": "2",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 68,
+     "src": "maxpower",
+     "font": "2",
+     "align": "right",
+     "unit": " W"
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 92,
+     "text": "Lowest volt",
+     "font": "2",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 92,
+     "src": "minvolt",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "unit": " V"
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 116,
+     "text": "Energy used",
+     "font": "2",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 116,
+     "src": "energy",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "unit": " Wh"
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 140,
+     "text": "Ride time",
+     "font": "2",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 140,
+     "src": "ridetime",
+     "font": "2",
+     "align": "right",
+     "unit": " min"
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 164,
+     "text": "Trip",
+     "font": "2",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 164,
+     "src": "trip",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "unit": " km"
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 188,
+     "text": "Total",
+     "font": "2",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 188,
+     "src": "total",
+     "font": "2",
+     "align": "right",
+     "unit": " km"
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 210,
+     "w": 100,
+     "h": 26,
+     "action": "nextpage",
+     "text": "GRAPH",
+     "font": "2",
+     "rad": 8,
+     "page": 0
+    },
+    {
+     "t": "spark",
+     "x": 8,
+     "y": 40,
+     "w": 304,
+     "h": 130,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "fill": true,
+     "th": 2,
+     "page": 1
+    },
+    {
+     "t": "num",
+     "x": 8,
+     "y": 178,
+     "src": "speed",
+     "font": "4",
+     "unit": " km/h",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 210,
+     "w": 100,
+     "h": 26,
+     "action": "nextpage",
+     "text": "STATS",
+     "font": "2",
+     "rad": 8,
+     "page": 1
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021410008c030207010054484953205249444500000000000000546f7020737065656400000000000000206b6d2f6800000000000000000000005065616b20706f776572000000000000205700000000000000000000000000004c6f7765737420766f6c74000000000020560000000000000000000000000000456e657267792075736564000000000020576800000000000000000000000000526964652074696d6500000000000000206d696e00000000000000000000000054726970000000000000000000000000206b6d00000000000000000000000000546f74616c000000000000000000000047524150480000000000000000000000535441545300000000000000000000000100010602f000ff0000000008000600000000000044870000000000000000000800050601f0ffff0000000008002200300100000044870100000000000000000100050601f001ff0000000008002c0000000000004487000000000000000000020c000601f602ff0000000038012c00000000000044870000000000000000000100050601f003ff000000000800440000000000004487000000000000000000020d000601f204ff0000000038014400000000000044870000000000000000000100050601f005ff0000000008005c0000000000004487000000000000000000020e000601f606ff0000000038015c00000000000044870000000000000000000100050601f007ff000000000800740000000000004487000000000000000000020f000601f608ff0000000038017400000000000044870000000000000000000100050601f009ff0000000008008c00000000000044870000000000000000000210000601f20aff0000000038018c00000000000044870000000000000000000100050601f00bff000000000800a400000000000044870000000000000000000208000601f60cff000000003801a400000000000044870000000000000000000100050601f00dff000000000800bc00000000000044870000000000000000000209000601f20cff000000003801bc00000000000044870000000000000000000901000101000eff000000000800d20064001a000044870800000000000000000b0101060110ffff23000000080028003001820001448702000000000000000002010006021002ff000000000800b200000000000044870000000000000000000901000101100fff000000000800d20064001a00004487080000000000000000",
+  "pages": 2,
+  "file": []
+ }
+}

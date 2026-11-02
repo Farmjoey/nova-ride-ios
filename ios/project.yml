@@ -1,0 +1,54 @@
+# XcodeGen project description: `xcodegen generate` makes NovaRide.xcodeproj (done by the GitHub workflow on a Mac).
+name: NovaRide
+options:
+  bundleIdPrefix: dk.novaride
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1"
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    ENABLE_PREVIEWS: NO
+targets:
+  NovaRide:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources/NovaCore          # the tested logic (same files that `swift run NovaChecks` checks on a PC)
+      - path: App
+        excludes:
+          - Info.plist
+      - path: ../app/widgets/starter     # bundled designs, read by StarterLibrary
+        type: folder
+        buildPhase: resources
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: NOVA RIDE
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSLocalNetworkUsageDescription: "NOVA RIDE taler med dit board over boardets eget Wi-Fi (tema, skærm, opdatering og live-data)."
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        ITSAppUsesNonExemptEncryption: false
+        UIAppFonts:
+          - Poppins-Bold.ttf
+          - Poppins-Medium.ttf
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dk.novaride.app
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
+schemes:
+  NovaRide:
+    build:
+      targets:
+        NovaRide: all

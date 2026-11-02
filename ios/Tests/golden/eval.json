@@ -1,0 +1,449 @@
+{
+ "values": {
+  "speed": 21.5,
+  "power": -120,
+  "battery": 15,
+  "volt": 78.7,
+  "current": null,
+  "temp": 47,
+  "motortemp": null,
+  "trip": 12.4,
+  "total": 20660,
+  "mode": 2,
+  "fault": 0,
+  "maxspeed": 31.4,
+  "maxpower": 2650,
+  "minvolt": 71.2,
+  "energy": 148,
+  "ridetime": 18,
+  "ble": 1,
+  "phone": 0,
+  "limit": 1,
+  "demo": 0,
+  "alert": 0,
+  "regen": 1,
+  "moving": 1,
+  "none": null,
+  "banana": null
+ },
+ "vis": [
+  {
+   "show": {
+    "src": "speed",
+    "op": ">",
+    "val": 20
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "speed",
+    "op": ">",
+    "val": 20
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "speed",
+    "op": "<",
+    "val": 20
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "speed",
+    "op": "<",
+    "val": 20
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "battery",
+    "op": "==",
+    "val": 15
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "battery",
+    "op": "==",
+    "val": 15
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "battery",
+    "op": "!=",
+    "val": 15
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "battery",
+    "op": "!=",
+    "val": 15
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "battery",
+    "op": ">=",
+    "val": 15
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "battery",
+    "op": ">=",
+    "val": 15
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "battery",
+    "op": "<=",
+    "val": 14
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "battery",
+    "op": "<=",
+    "val": 14
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "current",
+    "op": ">",
+    "val": 0
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "current",
+    "op": ">",
+    "val": 0
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "limit",
+    "op": "==",
+    "val": 1
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "limit",
+    "op": "==",
+    "val": 1
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "phone",
+    "op": "==",
+    "val": 1
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "phone",
+    "op": "==",
+    "val": 1
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": false
+  },
+  {
+   "show": {
+    "src": "speed",
+    "op": null,
+    "val": 1
+   },
+   "item_page": null,
+   "page": 0,
+   "visible": true
+  },
+  {
+   "show": {
+    "src": "speed",
+    "op": null,
+    "val": 1
+   },
+   "item_page": "all",
+   "page": 1,
+   "visible": true
+  }
+ ],
+ "pages": [
+  {
+   "page": 0,
+   "cur": 0,
+   "visible": true
+  },
+  {
+   "page": 1,
+   "cur": 0,
+   "visible": false
+  },
+  {
+   "page": 1,
+   "cur": 1,
+   "visible": true
+  },
+  {
+   "page": "all",
+   "cur": 2,
+   "visible": true
+  }
+ ],
+ "sev": [
+  {
+   "item": {
+    "warn": 25,
+    "bad": 32
+   },
+   "value": 10,
+   "result": null
+  },
+  {
+   "item": {
+    "warn": 25,
+    "bad": 32
+   },
+   "value": 25,
+   "result": "warn"
+  },
+  {
+   "item": {
+    "warn": 25,
+    "bad": 32
+   },
+   "value": 40,
+   "result": "bad"
+  },
+  {
+   "item": {
+    "warn": 20,
+    "bad": 10,
+    "below": true
+   },
+   "value": 50,
+   "result": null
+  },
+  {
+   "item": {
+    "warn": 20,
+    "bad": 10,
+    "below": true
+   },
+   "value": 20,
+   "result": "warn"
+  },
+  {
+   "item": {
+    "warn": 20,
+    "bad": 10,
+    "below": true
+   },
+   "value": 5,
+   "result": "bad"
+  },
+  {
+   "item": {},
+   "value": 99,
+   "result": null
+  },
+  {
+   "item": {
+    "bad": 5
+   },
+   "value": 7,
+   "result": "bad"
+  },
+  {
+   "item": {
+    "warn": 5
+   },
+   "value": 7,
+   "result": "warn"
+  },
+  {
+   "item": {
+    "warn": 25,
+    "bad": 32
+   },
+   "value": null,
+   "result": null
+  }
+ ],
+ "frac": [
+  {
+   "item": {
+    "min": 0,
+    "max": 35
+   },
+   "value": 17.5,
+   "result": 0.5
+  },
+  {
+   "item": {
+    "min": 0,
+    "max": 35
+   },
+   "value": -4,
+   "result": 0
+  },
+  {
+   "item": {
+    "min": 0,
+    "max": 35
+   },
+   "value": 99,
+   "result": 1
+  },
+  {
+   "item": {
+    "min": -800,
+    "max": 6000
+   },
+   "value": 0,
+   "result": 0.11764705882352941
+  },
+  {
+   "item": {
+    "max": 100
+   },
+   "value": 50,
+   "result": 0.5
+  },
+  {
+   "item": {},
+   "value": 0.5,
+   "result": 0.5
+  },
+  {
+   "item": {
+    "min": 0,
+    "max": 35
+   },
+   "value": null,
+   "result": 0
+  }
+ ],
+ "fmt": [
+  {
+   "value": 21.5,
+   "dp": 0,
+   "result": "22"
+  },
+  {
+   "value": 21.4999,
+   "dp": 0,
+   "result": "21"
+  },
+  {
+   "value": 0.5,
+   "dp": 0,
+   "result": "1"
+  },
+  {
+   "value": 1.5,
+   "dp": 0,
+   "result": "2"
+  },
+  {
+   "value": -0.5,
+   "dp": 0,
+   "result": "0"
+  },
+  {
+   "value": -1.5,
+   "dp": 0,
+   "result": "-1"
+  },
+  {
+   "value": 78.74,
+   "dp": 1,
+   "result": "78.7"
+  },
+  {
+   "value": 78.75,
+   "dp": 1,
+   "result": "78.8"
+  },
+  {
+   "value": null,
+   "dp": 0,
+   "result": "--"
+  },
+  {
+   "value": null,
+   "dp": 2,
+   "result": "--"
+  },
+  {
+   "value": 3.14159,
+   "dp": 2,
+   "result": "3.14"
+  },
+  {
+   "value": 0,
+   "dp": 1,
+   "result": "0.0"
+  }
+ ]
+}
