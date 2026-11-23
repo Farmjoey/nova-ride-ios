@@ -1,0 +1,8261 @@
+{
+ "minimal_num": {
+  "design": {
+   "v": 2,
+   "name": "Mini",
+   "author": "a",
+   "items": [
+    {
+     "t": "num",
+     "x": 10,
+     "y": 40,
+     "src": "speed",
+     "font": "4"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020100002c00010701000201000602f0ffff000000000a00280000000000004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "rich": {
+  "design": {
+   "v": 2,
+   "name": "Rich",
+   "author": "a",
+   "pages": 2,
+   "bg": "#102030",
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 70,
+     "th": 10,
+     "src": "speed",
+     "max": 35,
+     "a0": 135,
+     "sweep": 270,
+     "knob": true,
+     "caps": true,
+     "ticks": true,
+     "warn": 25,
+     "bad": 32,
+     "color": "#33ccff"
+    },
+    {
+     "t": "button",
+     "x": 10,
+     "y": 200,
+     "w": 80,
+     "h": 30,
+     "action": "sport",
+     "text": "SPORT"
+    },
+    {
+     "t": "spark",
+     "x": 180,
+     "y": 150,
+     "w": 130,
+     "h": 50,
+     "src": "power",
+     "max": 3000,
+     "fill": true,
+     "page": 1
+    },
+    {
+     "t": "dot",
+     "x": 300,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "show": {
+      "src": "speed",
+      "op": ">",
+      "val": 3
+     }
+    },
+    {
+     "t": "icon",
+     "x": 10,
+     "y": 10,
+     "size": 24,
+     "icon": "battery",
+     "src": "battery",
+     "max": 100
+    },
+    {
+     "t": "segbar",
+     "x": 10,
+     "y": 100,
+     "w": 200,
+     "h": 14,
+     "n": 20,
+     "src": "battery",
+     "max": 100,
+     "round": true,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "line",
+     "x": 5,
+     "y": 5,
+     "w": 100,
+     "h": 0,
+     "th": 1
+    },
+    {
+     "t": "circle",
+     "x": 50,
+     "y": 50,
+     "r": 20,
+     "border": true,
+     "th": 3
+    },
+    {
+     "t": "rect",
+     "x": 4,
+     "y": 4,
+     "w": 100,
+     "h": 40,
+     "rad": 8,
+     "fill": true,
+     "color": "#ff8800"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 8,
+     "text": "HEJ",
+     "align": "center",
+     "font": "4"
+    },
+    {
+     "t": "bar",
+     "x": 20,
+     "y": 110,
+     "w": 160,
+     "h": 12,
+     "src": "power",
+     "min": -800,
+     "max": 6000,
+     "border": true,
+     "bidir": true,
+     "rad": 6
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020b020392010210010053504f5254000000000000000000000048454a0000000000000000000000000006117f3640fc0401110601f0ffff230000005a00680046000a003844870000080000190020000906000101f000ff000000000a00c80050001e000044870000000000000000000b0200060110ffffb80b0000b4009600820032000144870200000000000000000c11000601f0ffff000000002c010a00040000000044870001010300000000000d03000601f0ffff640000000a000a00180000000044870100000000000000000a03000601f0ffff640000000a006400c8000e00024487140018000014000a000800000601f0ffff0000000005000500640000000044870100000000000000000700000601f0ffff0000000032003200140000000444870300000000000000000600120601f0ffff0000000004000400640028000144870800000000000000000100000602f101ff00000000a0000800000000000044870000000000000000000302000601f0ffff7017e0fc14006e00a0000c00444487060000000000000000",
+  "pages": 2,
+  "file": []
+ },
+ "v1_ring_modebar": {
+  "design": {
+   "v": 1,
+   "name": "Old",
+   "author": "a",
+   "items": [
+    {
+     "t": "ring",
+     "x": 88,
+     "y": 126,
+     "r": 80,
+     "th": 14,
+     "src": "speed",
+     "max": 35
+    },
+    {
+     "t": "modebar"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702050400ec000107010057414c4b00000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000000401000601f0ffff2300000058007e0050000e000044870000000000000000000903000601f000ff000000000400ce004b001e000044870900000000000000000904000601f001ff000000005300ce004b001e000044870900000000000000000905000601f002ff00000000a200ce004b001e000044870900000000000000000906000601f003ff00000000f100ce004b001e00004487090000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "messages_action": {
+  "design": {
+   "v": 2,
+   "name": "Msg",
+   "author": "a",
+   "items": [
+    {
+     "t": "button",
+     "x": 5,
+     "y": 5,
+     "w": 60,
+     "h": 30,
+     "action": "none",
+     "text": "MSG"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020101003c00010701004d5347000000000000000000000000000900000101f000ff00000000050005003c001e00004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "odd_numbers": {
+  "design": {
+   "v": 2,
+   "name": "Odd",
+   "author": "a",
+   "items": [
+    {
+     "t": "num",
+     "x": "12",
+     "y": 40.5,
+     "src": "volt",
+     "dp": "1",
+     "font": 4,
+     "w": null
+    },
+    {
+     "t": "bar",
+     "x": 10.4,
+     "y": 99.5,
+     "w": "100",
+     "h": 10,
+     "src": "battery",
+     "max": 100.5,
+     "min": -0.5
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020200004c00010701000204000602f4ffff000000000c002900000000000044870000000000000000000303000601f0ffff650000000a00640064000a00004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "err_bad_arc": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 5,
+     "th": 10,
+     "src": "speed",
+     "max": 35
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Bue: radius 8-160, tykkelse 1 til under radius"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Bue: radius 8-160, tykkelse 1 til under radius"
+  ]
+ },
+ "err_big_font_unit": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "font": "8",
+     "unit": " km/h"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Skrift 6, 7 og 8 kan kun vise tal - brug en tekst ved siden af i stedet for enhed/præfiks"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Skrift 6, 7 og 8 kan kun vise tal - brug en tekst ved siden af i stedet for enhed/præfiks"
+  ]
+ },
+ "err_bad_page": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "dot",
+     "x": 1,
+     "y": 1,
+     "r": 4,
+     "src": "ble",
+     "page": 1
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Side findes ikke (siderne er 0-0)"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Side findes ikke (siderne er 0-0)"
+  ]
+ },
+ "err_unknown_type": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "nope"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Ukendt type"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Ukendt type"
+  ]
+ },
+ "err_unknown_src": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "banana"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Ukendt kilde"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Ukendt kilde"
+  ]
+ },
+ "err_unknown_color": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "pink"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Farve: ukendt farve"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Farve: ukendt farve"
+  ]
+ },
+ "err_bad_hex": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#12345"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Farve: farve skal være #rrggbb"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Farve: farve skal være #rrggbb"
+  ]
+ },
+ "err_text_missing": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Tekst mangler"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Tekst mangler"
+  ]
+ },
+ "err_text_font": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "A",
+     "font": "8"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Tekst kan kun bruge skrift 1, 2 eller 4"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Tekst kan kun bruge skrift 1, 2 eller 4"
+  ]
+ },
+ "err_non_ascii": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "Hej æ"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Tekst må kun have almindelige tegn (ASCII)",
+   "Element 1: Tekst mangler"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Tekst må kun have almindelige tegn (ASCII)",
+   "Element 1: Tekst mangler"
+  ]
+ },
+ "err_long_text": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "0123456789abcdef"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Tekst maks 15 tegn",
+   "Element 1: Tekst mangler"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Tekst maks 15 tegn",
+   "Element 1: Tekst mangler"
+  ]
+ },
+ "err_button_small": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "button",
+     "x": 1,
+     "y": 1,
+     "w": 10,
+     "h": 10,
+     "text": "X"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Knap: bredde 16-320, højde 12-200"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Knap: bredde 16-320, højde 12-200"
+  ]
+ },
+ "err_segments": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "segbar",
+     "x": 1,
+     "y": 1,
+     "w": 10,
+     "h": 10,
+     "n": 20,
+     "src": "speed",
+     "max": 35
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Segmenter: bredde (mindst 2 pr. segment) og højde 2-100"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Segmenter: bredde (mindst 2 pr. segment) og højde 2-100"
+  ]
+ },
+ "err_spark_thick": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "spark",
+     "x": 1,
+     "y": 1,
+     "w": 100,
+     "h": 40,
+     "src": "speed",
+     "max": 35,
+     "th": 9
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Graf: stregtykkelse 1-6"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Graf: stregtykkelse 1-6"
+  ]
+ },
+ "err_dot_mode": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "dot",
+     "x": 1,
+     "y": 1,
+     "r": 4,
+     "src": "mode"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Prik skal have en kilde"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Prik skal have en kilde"
+  ]
+ },
+ "err_icon": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "icon",
+     "x": 1,
+     "y": 1,
+     "size": 24,
+     "icon": "rocket"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Ukendt ikon"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Ukendt ikon"
+  ]
+ },
+ "err_off_screen": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 900,
+     "y": 1,
+     "src": "speed"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Ligger for langt uden for skærmen"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Ligger for langt uden for skærmen"
+  ]
+ },
+ "err_show_src": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "show": {
+      "src": "mode",
+      "op": ">",
+      "val": 1
+     }
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Vis kun når: ukendt kilde"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Vis kun når: ukendt kilde"
+  ]
+ },
+ "err_show_op": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "show": {
+      "src": "speed",
+      "op": "~",
+      "val": 1
+     }
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Vis kun når: ukendt sammenligning"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Vis kun når: ukendt sammenligning"
+  ]
+ },
+ "err_empty": {
+  "design": {
+   "v": 2,
+   "items": []
+  },
+  "ok": false,
+  "errors": [
+   "Widget skal have mindst ét element"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Widget skal have mindst ét element"
+  ]
+ },
+ "err_many_errors": {
+  "design": {
+   "v": 2,
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 5,
+     "th": 10,
+     "src": "speed",
+     "max": 35
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "banana"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 1: Bue: radius 8-160, tykkelse 1 til under radius",
+   "Element 2: Tekst mangler",
+   "Element 3: Ukendt kilde"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "name: 2-24 almindelige tegn",
+   "author: 1-24 almindelige tegn",
+   "Element 1: Bue: radius 8-160, tykkelse 1 til under radius",
+   "Element 2: Tekst mangler",
+   "Element 3: Ukendt kilde"
+  ]
+ },
+ "err_too_many_items": {
+  "design": {
+   "v": 2,
+   "name": "Many",
+   "author": "a",
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Højst 48 elementer"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "Højst 48 elementer"
+  ]
+ },
+ "err_too_many_colors": {
+  "design": {
+   "v": 2,
+   "name": "Col",
+   "author": "a",
+   "items": [
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#00141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#0a141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#14141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#1e141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#28141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#32141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#3c141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#46141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#50141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#5a141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#64141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#6e141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#78141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#82141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#8c141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#96141e"
+    },
+    {
+     "t": "num",
+     "x": 1,
+     "y": 1,
+     "src": "speed",
+     "color": "#a0141e"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 17: For mange egne farver (maks 16)"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "Element 17: For mange egne farver (maks 16)"
+  ]
+ },
+ "err_too_many_strings": {
+  "design": {
+   "v": 2,
+   "name": "Str",
+   "author": "a",
+   "items": [
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t0"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t1"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t2"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t3"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t4"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t5"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t6"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t7"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t8"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t9"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t10"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t11"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t12"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t13"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t14"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t15"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t16"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t17"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t18"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t19"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t20"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t21"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t22"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t23"
+    },
+    {
+     "t": "text",
+     "x": 1,
+     "y": 1,
+     "text": "t24"
+    }
+   ]
+  },
+  "ok": false,
+  "errors": [
+   "Element 25: For mange forskellige tekster (maks 24)",
+   "Element 25: Tekst mangler"
+  ],
+  "hex": "",
+  "pages": 1,
+  "file": [
+   "Element 25: For mange forskellige tekster (maks 24)",
+   "Element 25: Tekst mangler"
+  ]
+ },
+ "starter_batteri": {
+  "design": {
+   "v": 2,
+   "name": "Batteri",
+   "author": "NOVA",
+   "desc": "Batteriet i stort format med 20 felter, så du ser rækkevidden på afstand",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim"
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "num",
+     "x": 104,
+     "y": 20,
+     "src": "battery",
+     "font": "8",
+     "align": "center",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 52,
+     "text": "%",
+     "font": "4",
+     "color": "dim"
+    },
+    {
+     "t": "icon",
+     "x": 234,
+     "y": 34,
+     "icon": "battery",
+     "size": 56,
+     "src": "battery",
+     "max": 100,
+     "color": "neon"
+    },
+    {
+     "t": "segbar",
+     "x": 14,
+     "y": 112,
+     "w": 292,
+     "h": 28,
+     "n": 20,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "round": true,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "text",
+     "x": 14,
+     "y": 152,
+     "text": "VOLT",
+     "font": "1",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 14,
+     "y": 162,
+     "src": "volt",
+     "font": "4",
+     "dp": 1
+    },
+    {
+     "t": "text",
+     "x": 122,
+     "y": 152,
+     "text": "AMPERE",
+     "font": "1",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 122,
+     "y": 162,
+     "src": "current",
+     "font": "4"
+    },
+    {
+     "t": "text",
+     "x": 238,
+     "y": 152,
+     "text": "CONTROLLER C",
+     "font": "1",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 238,
+     "y": 162,
+     "src": "temp",
+     "font": "4"
+    },
+    {
+     "t": "num",
+     "x": 14,
+     "y": 204,
+     "src": "speed",
+     "font": "4",
+     "unit": " km/h"
+    },
+    {
+     "t": "bar",
+     "x": 150,
+     "y": 212,
+     "w": 156,
+     "h": 8,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "round": true,
+     "rad": 4
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021106008c020107010044454d4f00000000000000000000000025000000000000000000000000000000564f4c54000000000000000000000000414d5045524500000000000000000000434f4e54524f4c4c4552204300000000206b6d2f6800000000000000000000000c11020501f0ffff000000000e000a00040000000044870000000000000000000100050601f000ff0000000018000200000000000044870014030100000000000c14050501f0ffff0000000028010800020000000044870000000000000000000c14050501f0ffff0000000030010800020000000044870000000000000000000c14050501f0ffff0000000038010800020000000044870000000000000000000203000605f1ffff000000006800140000000000004487000018000014000a000100050602f001ff00000000a0003400000000000044870000000000000000000d03010601f0ffff64000000ea002200380000000044870100000000000000000a03020601f0ffff640000000e00700024011c00024487140018000014000a000100050600f002ff000000000e009800000000000044870000000000000000000204000602f4ffff000000000e00a200000000000044870000000000000000000100050600f003ff000000007a009800000000000044870000000000000000000205000602f0ffff000000007a00a200000000000044870000000000000000000100050600f004ff00000000ee009800000000000044870000000000000000000206000602f0ffff00000000ee00a200000000000044870000000000000000000201000602f005ff000000000e00cc00000000000044870000000000000000000301010601f0ffff230000009600d4009c000800024487040000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_cruiser": {
+  "design": {
+   "v": 2,
+   "name": "Cruiser",
+   "author": "NOVA",
+   "desc": "Tre sider: køreskærm, turtal og styring. Stryg eller brug pilene",
+   "pages": 3,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "arc",
+     "x": 104,
+     "y": 126,
+     "r": 84,
+     "th": 10,
+     "a0": 135,
+     "sweep": 270,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "caps": true,
+     "knob": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 104,
+     "y": 89,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 104,
+     "y": 162,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 104,
+     "y": 192,
+     "src": "mode",
+     "font": "2",
+     "align": "center",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 250,
+     "y": 30,
+     "text": "BATTERY",
+     "font": "1",
+     "align": "center",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 250,
+     "y": 44,
+     "src": "battery",
+     "font": "6",
+     "align": "center",
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 236,
+     "y": 104,
+     "w": 28,
+     "h": 100,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "round": true,
+     "rad": 8,
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 268,
+     "y": 200,
+     "w": 44,
+     "h": 34,
+     "action": "nextpage",
+     "text": ">",
+     "font": "4",
+     "rad": 10,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 12,
+     "y": 8,
+     "text": "TRIP",
+     "font": "4",
+     "color": "neon",
+     "page": 1
+    },
+    {
+     "t": "rect",
+     "x": 10,
+     "y": 40,
+     "w": 148,
+     "h": 74,
+     "rad": 10,
+     "color": "panel",
+     "border": true,
+     "page": 1
+    },
+    {
+     "t": "text",
+     "x": 20,
+     "y": 48,
+     "text": "DISTANCE KM",
+     "font": "1",
+     "color": "dim",
+     "page": 1
+    },
+    {
+     "t": "num",
+     "x": 20,
+     "y": 66,
+     "src": "trip",
+     "font": "6",
+     "dp": 1,
+     "page": 1
+    },
+    {
+     "t": "rect",
+     "x": 162,
+     "y": 40,
+     "w": 148,
+     "h": 74,
+     "rad": 10,
+     "color": "panel",
+     "border": true,
+     "page": 1
+    },
+    {
+     "t": "text",
+     "x": 172,
+     "y": 48,
+     "text": "TIME",
+     "font": "1",
+     "color": "dim",
+     "page": 1
+    },
+    {
+     "t": "num",
+     "x": 172,
+     "y": 66,
+     "src": "ridetime",
+     "font": "6",
+     "page": 1
+    },
+    {
+     "t": "rect",
+     "x": 10,
+     "y": 120,
+     "w": 148,
+     "h": 74,
+     "rad": 10,
+     "color": "panel",
+     "border": true,
+     "page": 1
+    },
+    {
+     "t": "text",
+     "x": 20,
+     "y": 128,
+     "text": "TOP KM/H",
+     "font": "1",
+     "color": "dim",
+     "page": 1
+    },
+    {
+     "t": "num",
+     "x": 20,
+     "y": 146,
+     "src": "maxspeed",
+     "font": "6",
+     "page": 1
+    },
+    {
+     "t": "rect",
+     "x": 162,
+     "y": 120,
+     "w": 148,
+     "h": 74,
+     "rad": 10,
+     "color": "panel",
+     "border": true,
+     "page": 1
+    },
+    {
+     "t": "text",
+     "x": 172,
+     "y": 128,
+     "text": "ENERGY WH",
+     "font": "1",
+     "color": "dim",
+     "page": 1
+    },
+    {
+     "t": "num",
+     "x": 172,
+     "y": 146,
+     "src": "energy",
+     "font": "6",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 202,
+     "w": 70,
+     "h": 32,
+     "action": "prevpage",
+     "text": "<",
+     "font": "4",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 242,
+     "y": 202,
+     "w": 70,
+     "h": 32,
+     "action": "nextpage",
+     "text": ">",
+     "font": "4",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 8,
+     "text": "CONTROLS",
+     "font": "4",
+     "color": "neon",
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "walk",
+     "text": "WALK",
+     "font": "4",
+     "rad": 12,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "eco",
+     "text": "ECO",
+     "font": "4",
+     "rad": 12,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "drive",
+     "text": "DRIVE",
+     "font": "4",
+     "rad": 12,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "4",
+     "rad": 12,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "prevtrack",
+     "text": "<<",
+     "font": "4",
+     "rad": 12,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "playpause",
+     "text": "PLAY",
+     "font": "2",
+     "rad": 12,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "nexttrack",
+     "text": ">>",
+     "font": "4",
+     "rad": 12,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "prevpage",
+     "text": "BACK",
+     "font": "2",
+     "rad": 10,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "safety",
+     "text": "20 KM/H",
+     "font": "2",
+     "rad": 10,
+     "page": 2
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "settings",
+     "text": "SETTINGS",
+     "font": "2",
+     "rad": 10,
+     "page": 2
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57022715003c060307010044454d4f0000000000000000000000006b6d2f68000000000000000000000000424154544552590000000000000000003e0000000000000000000000000000005452495000000000000000000000000044495354414e4345204b4d000000000054494d45000000000000000000000000544f50204b4d2f480000000000000000454e45524759205748000000000000003c000000000000000000000000000000434f4e54524f4c53000000000000000057414c4b00000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000003c3c0000000000000000000000000000504c41590000000000000000000000003e3e00000000000000000000000000004241434b0000000000000000000000003230204b4d2f4800000000000000000053455454494e475300000000000000000c1102050100ffff000000000e000a000400000000448700000000000000000001000506010000ff0000000018000200000000000044870014030100000000000c1405050100ffff0000000028010800020000000044870000000000000000000c1405050100ffff0000000030010800020000000044870000000000000000000c1405050100ffff000000003801080002000000004487000000000000000000040101060100ffff2300000068007e0054000a00284487000000000000000000020100060501ffff00000000680059000000000000448700000000000000000001000506010101ff000000006800a20000000000004487000000000000000000020a05060101ffff000000006800c0000000000000448700000000000000000001000506000102ff00000000fa001e0000000000004487000000000000000000020300060301ffff00000000fa002c0000000000004487000018000014000a00030302060100ffff64000000ec0068001c006400024487080018000014000a0009010001020003ff000000000c01c8002c0022000044870a000000000000000001000106021004ff000000000c00080000000000004487000000000000000000060006060110ffff000000000a00280094004a000444870a000000000000000001000506001005ff000000001400300000000000004487000000000000000000020800060314ffff000000001400420000000000004487000000000000000000060006060110ffff00000000a200280094004a000444870a000000000000000001000506001006ff00000000ac00300000000000004487000000000000000000021000060310ffff00000000ac00420000000000004487000000000000000000060006060110ffff000000000a00780094004a000444870a000000000000000001000506001007ff000000001400800000000000004487000000000000000000020c00060310ffff000000001400920000000000004487000000000000000000060006060110ffff00000000a200780094004a000444870a000000000000000001000506001008ff00000000ac00800000000000004487000000000000000000020f00060310ffff00000000ac0092000000000000448700000000000000000009020001021009ff000000000800ca00460020000044870a000000000000000009010001021003ff00000000f200ca00460020000044870a00000000000000000100010602200aff0000000008000800000000000044870000000000000000000903000102200bff000000000800280094002c000044870c00000000000000000904000102200cff00000000a400280094002c000044870c00000000000000000905000102200dff0000000008005c0094002c000044870c00000000000000000906000102200eff00000000a4005c0094002c000044870c00000000000000000907000102200fff00000000080092005c0028000044870c000000000000000009080001012010ff00000000720092005c0028000044870c000000000000000009090001022011ff00000000dc0092005c0028000044870c000000000000000009020001012012ff000000000800c4005c0024000044870a0000000000000000090d0001012013ff000000007200c4005c0024000044870a0000000000000000090a0001012014ff00000000dc00c4005c0024000044870a0000000000000000",
+  "pages": 3,
+  "file": []
+ },
+ "starter_datatavle": {
+  "design": {
+   "v": 2,
+   "name": "Datatavle",
+   "author": "NOVA",
+   "desc": "Seks felter med alle tal og en lille bjælke i hver: fart, effekt, batteri, volt, strøm og temperatur",
+   "pages": 2,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 24,
+     "y": 2,
+     "src": "mode",
+     "font": "2",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "line",
+     "x": 107,
+     "y": 34,
+     "w": 0,
+     "h": 192,
+     "color": "panel",
+     "th": 2,
+     "page": 0
+    },
+    {
+     "t": "line",
+     "x": 211,
+     "y": 34,
+     "w": 0,
+     "h": 192,
+     "color": "panel",
+     "th": 2,
+     "page": 0
+    },
+    {
+     "t": "line",
+     "x": 10,
+     "y": 133,
+     "w": 300,
+     "h": 0,
+     "color": "panel",
+     "th": 2,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 14,
+     "y": 40,
+     "text": "SPEED KM/H",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 14,
+     "y": 60,
+     "src": "speed",
+     "font": "4",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 14,
+     "y": 100,
+     "w": 84,
+     "h": 7,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "min": 0,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 118,
+     "y": 40,
+     "text": "POWER W",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 118,
+     "y": 60,
+     "src": "power",
+     "font": "4",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 118,
+     "y": 100,
+     "w": 84,
+     "h": 7,
+     "src": "power",
+     "max": 4000,
+     "color": "neon",
+     "color2": "panel",
+     "min": 0,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 222,
+     "y": 40,
+     "text": "BATTERY %",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 222,
+     "y": 60,
+     "src": "battery",
+     "font": "4",
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 222,
+     "y": 100,
+     "w": 84,
+     "h": 7,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "min": 0,
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 14,
+     "y": 142,
+     "text": "VOLT",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 14,
+     "y": 162,
+     "src": "volt",
+     "font": "4",
+     "dp": 1,
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 14,
+     "y": 202,
+     "w": 84,
+     "h": 7,
+     "src": "volt",
+     "max": 85,
+     "color": "neon",
+     "color2": "panel",
+     "min": 0,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 118,
+     "y": 142,
+     "text": "CURRENT A",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 118,
+     "y": 162,
+     "src": "current",
+     "font": "4",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 118,
+     "y": 202,
+     "w": 84,
+     "h": 7,
+     "src": "current",
+     "max": 40,
+     "color": "neon",
+     "color2": "panel",
+     "min": 0,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 222,
+     "y": 142,
+     "text": "CONTROLLER C",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 222,
+     "y": 162,
+     "src": "temp",
+     "font": "4",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 222,
+     "y": 202,
+     "w": 84,
+     "h": 7,
+     "src": "temp",
+     "max": 100,
+     "color": "neon",
+     "color2": "panel",
+     "min": 0,
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 256,
+     "y": 2,
+     "w": 30,
+     "h": 24,
+     "action": "nextpage",
+     "text": ">",
+     "font": "2",
+     "rad": 8,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 8,
+     "text": "MODES",
+     "font": "4",
+     "color": "neon",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "walk",
+     "text": "WALK",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "eco",
+     "text": "ECO",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "drive",
+     "text": "DRIVE",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "prevtrack",
+     "text": "<<",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "playpause",
+     "text": "PLAY",
+     "font": "2",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "nexttrack",
+     "text": ">>",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "prevpage",
+     "text": "BACK",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "safety",
+     "text": "20 KM/H",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "settings",
+     "text": "SETTINGS",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702261200ec05020701005350454544204b4d2f48000000000000504f574552205700000000000000000042415454455259202500000000000000564f4c5400000000000000000000000043555252454e54204100000000000000434f4e54524f4c4c45522043000000003e0000000000000000000000000000004d4f444553000000000000000000000057414c4b00000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000003c3c0000000000000000000000000000504c41590000000000000000000000003e3e00000000000000000000000000004241434b0000000000000000000000003230204b4d2f4800000000000000000053455454494e475300000000000000000c1102050100ffff000000000e000a00040000000044870000000000000000000c1405050100ffff0000000028010800020000000044870000000000000000000c1405050100ffff0000000030010800020000000044870000000000000000000c1405050100ffff000000003801080002000000004487000000000000000000020a05060100ffff000000001800020000000000004487000000000000000000080006060100ffff000000006b0022000000c000004487020000000000000000080006060100ffff00000000d30022000000c000004487020000000000000000080006060100ffff000000000a0085002c01000000448702000000000000000001000506000000ff000000000e00280000000000004487000000000000000000020100060200ffff000000000e003c0000000000004487000000000000000000030101060100ffff230000000e0064005400070000448700000000000000000001000506000001ff000000007600280000000000004487000000000000000000020200060200ffff0000000076003c0000000000004487000000000000000000030201060100ffffa00f0000760064005400070000448700000000000000000001000506000002ff00000000de00280000000000004487000000000000000000020300060200ffff00000000de003c0000000000004487000018000014000a00030302060100ffff64000000de00640054000700004487000018000014000a0001000506000003ff000000000e008e0000000000004487000000000000000000020400060204ffff000000000e00a20000000000004487000000000000000000030401060100ffff550000000e00ca005400070000448700000000000000000001000506000004ff0000000076008e0000000000004487000000000000000000020500060200ffff000000007600a20000000000004487000000000000000000030501060100ffff280000007600ca005400070000448700000000000000000001000506000005ff00000000de008e0000000000004487000000000000000000020600060200ffff00000000de00a20000000000004487000000000000000000030601060100ffff64000000de00ca005400070000448700000000000000000009010001010006ff00000000000102001e00180000448708000000000000000001000106021007ff00000000080008000000000000448700000000000000000009030001021008ff000000000800280094002c000044870c000000000000000009040001021009ff00000000a400280094002c000044870c00000000000000000905000102100aff0000000008005c0094002c000044870c00000000000000000906000102100bff00000000a4005c0094002c000044870c00000000000000000907000102100cff00000000080092005c0028000044870c00000000000000000908000101100dff00000000720092005c0028000044870c00000000000000000909000102100eff00000000dc0092005c0028000044870c00000000000000000902000101100fff000000000800c4005c0024000044870a0000000000000000090d0001011010ff000000007200c4005c0024000044870a0000000000000000090a0001011011ff00000000dc00c4005c0024000044870a0000000000000000",
+  "pages": 2,
+  "file": []
+ },
+ "starter_instrument": {
+  "design": {
+   "v": 2,
+   "name": "Instrument",
+   "author": "NOVA",
+   "desc": "Stor måler med streger og to små: batteri og strøm. Ligner et rigtigt instrument",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim"
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 118,
+     "r": 102,
+     "th": 14,
+     "a0": 150,
+     "sweep": 240,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "caps": true,
+     "knob": true,
+     "ticks": true
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 81,
+     "src": "speed",
+     "font": "8",
+     "align": "center"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 155,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "arc",
+     "x": 52,
+     "y": 196,
+     "r": 32,
+     "th": 7,
+     "a0": 150,
+     "sweep": 240,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "caps": true,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 52,
+     "y": 188,
+     "src": "battery",
+     "font": "2",
+     "align": "center",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "arc",
+     "x": 268,
+     "y": 196,
+     "r": 32,
+     "th": 7,
+     "a0": 150,
+     "sweep": 240,
+     "src": "current",
+     "max": 40,
+     "color": "warn",
+     "color2": "panel",
+     "caps": true
+    },
+    {
+     "t": "num",
+     "x": 268,
+     "y": 188,
+     "src": "current",
+     "font": "2",
+     "align": "center",
+     "unit": "A"
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 200,
+     "src": "mode",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020d0400ec010107010044454d4f0000000000000000000000006b6d2f6800000000000000000000000025000000000000000000000000000000410000000000000000000000000000000c11020501f0ffff000000000e000a00040000000044870000000000000000000100050601f000ff0000000018000200000000000044870014030100000000000c14050501f0ffff0000000028010800020000000044870000000000000000000c14050501f0ffff0000000030010800020000000044870000000000000000000c14050501f0ffff0000000038010800020000000044870000000000000000000401010601f0ffff23000000a000760066000e00384b780000000000000000000201000605f1ffff00000000a0005100000000000044870000000000000000000100050601f101ff00000000a0009b00000000000044870000000000000000000403020601f0ffff640000003400c40020000700204b78000018000014000a000203000601f102ff000000003400bc0000000000004487000018000014000a000405030601f0ffff280000000c01c40020000700204b780000000000000000000205000601f103ff000000000c01bc0000000000004487000000000000000000020a050601f1ffff00000000a000c80000000000004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_kaeledyr": {
+  "design": {
+   "v": 2,
+   "name": "Kaeledyr",
+   "author": "NOVA",
+   "desc": "En kat, der har det godt eller skidt, efter hvordan løbehjulet har det: batteri, varme og fejl",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim"
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "circle",
+     "x": 54,
+     "y": 89,
+     "r": 19,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 46,
+     "y": 72,
+     "r": 10,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 54,
+     "y": 85,
+     "r": 9,
+     "fill": true,
+     "color": "#f28fa6",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 130,
+     "y": 89,
+     "r": 19,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 138,
+     "y": 72,
+     "r": 10,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 130,
+     "y": 85,
+     "r": 9,
+     "fill": true,
+     "color": "#f28fa6",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 92,
+     "y": 136,
+     "r": 62,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 92,
+     "y": 160,
+     "r": 27,
+     "fill": true,
+     "color": "#fff1de",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 92,
+     "y": 143,
+     "r": 6,
+     "fill": true,
+     "color": "#f28fa6",
+     "grp": "pet"
+    },
+    {
+     "t": "line",
+     "x": 28,
+     "y": 147,
+     "w": 26,
+     "h": 6,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "line",
+     "x": 28,
+     "y": 160,
+     "w": 26,
+     "h": 3,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet"
+    },
+    {
+     "t": "line",
+     "x": 130,
+     "y": 147,
+     "w": 26,
+     "h": 6,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet"
+    },
+    {
+     "t": "line",
+     "x": 130,
+     "y": 160,
+     "w": 26,
+     "h": 3,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 68,
+     "y": 127,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 68,
+     "y": 132,
+     "r": 9,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 60,
+     "y": 127,
+     "w": 17,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 68,
+     "y": 129,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 59,
+     "y": 110,
+     "w": 19,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 62,
+     "y": 121,
+     "w": 13,
+     "h": 13,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 62,
+     "y": 121,
+     "w": 13,
+     "h": 13,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 116,
+     "y": 127,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 116,
+     "y": 132,
+     "r": 9,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 108,
+     "y": 127,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 116,
+     "y": 129,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 106,
+     "y": 110,
+     "w": 19,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 109,
+     "y": 121,
+     "w": 13,
+     "h": 13,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 109,
+     "y": 121,
+     "w": 13,
+     "h": 13,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 92,
+     "y": 147,
+     "r": 21,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 92,
+     "y": 150,
+     "r": 16,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 81,
+     "y": 161,
+     "w": 22,
+     "h": 0,
+     "th": 4,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 92,
+     "y": 172,
+     "r": 15,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 92,
+     "y": 163,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 148,
+     "y": 106,
+     "r": 6,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 158,
+     "y": 69,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 158,
+     "y": 69,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "text",
+     "x": 250,
+     "y": 28,
+     "text": "KM/H",
+     "font": "1",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 250,
+     "y": 38,
+     "src": "speed",
+     "font": "8",
+     "align": "center"
+    },
+    {
+     "t": "text",
+     "x": 190,
+     "y": 124,
+     "text": "BATTERY",
+     "font": "1",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 190,
+     "y": 134,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "bar",
+     "x": 190,
+     "y": 164,
+     "w": 122,
+     "h": 10,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "round": true,
+     "rad": 5,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "text",
+     "x": 190,
+     "y": 186,
+     "text": "FORM",
+     "font": "1",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 190,
+     "y": 196,
+     "src": "health",
+     "font": "4"
+    },
+    {
+     "t": "bar",
+     "x": 190,
+     "y": 226,
+     "w": 122,
+     "h": 8,
+     "src": "health",
+     "max": 100,
+     "color": "neon",
+     "color2": "panel",
+     "round": true,
+     "rad": 4
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e570230070586060107010044454d4f0000000000000000000000007a5a00000000000000000000000000003c3300000000000000000000000000004b4d2f480000000000000000000000004241545445525900000000000000000025000000000000000000000000000000464f524d0000000000000000000000002bf574f49bff46299f8e0c11020501f0ffff000000000e000a00040000000044870000000000000000000100050601f000ff0000000018000200000000000044870014030100000000000c14050501f0ffff0000000028010800020000000044870000000000000000000c14050501f0ffff0000000030010800020000000044870000000000000000000c14050501f0ffff0000000038010800020000000044870000000000000000000700100601f0ffff0000000036005900130000000144870000000000000000000700100601f0ffff000000002e0048000a0000000144870000000000000000000700110601f0ffff0000000036005500090000000144870000000000000000000700100601f0ffff0000000082005900130000000144870000000000000000000700100601f0ffff000000008a0048000a0000000144870000000000000000000700110601f0ffff0000000082005500090000000144870000000000000000000700100601f0ffff000000005c0088003e0000000144870000000000000000000700120601f0ffff000000005c00a0001b0000000144870000000000000000000700110601f0ffff000000005c008f00060000000144870000000000000000000800130601f0ffff000000001c0093001a0006000044870200000000000000000800130601f0ffff000000001c00a0001a0003008044870200000000000000000800130601f0ffff00000000820093001a0006008044870200000000000000000800130601f0ffff000000008200a0001a0003000044870200000000000000000700130601f0ffff0000000044007f00060000000144870019030300000000000419131301f0ffff0400000044008400090003002064460019030400000000000800130601f0ffff000000003c007f00110000000044870319030200000000000700130601f0ffff0000000044008100050000000144870019030100000000000800130601f0ffff000000003b006e00130007008044870219030100000000000800130601f0ffff000000003e0079000d000d000044870319030000000000000800130601f0ffff000000003e0079000d000d008044870319030000000000000700130601f0ffff0000000074007f00060000000144870019030300000000000419131301f0ffff0400000074008400090003002064460019030400000000000800130601f0ffff000000006c007f00100000000044870319030200000000000700130601f0ffff0000000074008100050000000144870019030100000000000800130601f0ffff000000006a006e00130007000044870219030100000000000800130601f0ffff000000006d0079000d000d000044870319030000000000000800130601f0ffff000000006d0079000d000d008044870319030000000000000419131301f0ffff040000005c00930015000400200b440019030400000000000419131301f0ffff040000005c009600100004002013340019030300000000000800130601f0ffff000000005100a100160000000044870419030200000000000419131301f0ffff040000005c00ac000f000400206f300019030100000000000700130601f0ffff000000005c00a300070000000444870319030000000000000700140601f0ffff0000000094006a00060000000144870019030100000000000100050601f001ff000000009e004500000000000044870019030200000000000100040601f002ff000000009e004500000000000044870019030400000000000100050600f103ff00000000fa001c00000000000044870000000000000000000201000605f1ffff00000000fa002600000000000044870000000000000000000100050600f004ff00000000be007c00000000000044870000000000000000000203000602f005ff00000000be00860000000000004487000018000014000a000303020601f0ffff64000000be00a4007a000a00024487050018000014000a000100050600f006ff00000000be00ba00000000000044870000000000000000000218000602f0ffff00000000be00c400000000000044870000000000000000000318010601f0ffff64000000be00e2007a000800024487040000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_nat": {
+  "design": {
+   "v": 2,
+   "name": "Nat",
+   "author": "NOVA",
+   "desc": "Dæmpet rød på sort, så skærmen ikke blænder i mørke",
+   "pages": 1,
+   "bg": "#000000",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "#c8453a",
+     "color2": "#2a0e0c"
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "#2a0e0c",
+     "color2": "#2a0e0c"
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "#2a0e0c",
+     "color2": "#2a0e0c"
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "#2a0e0c",
+     "color2": "#2a0e0c"
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 124,
+     "r": 104,
+     "th": 5,
+     "a0": 135,
+     "sweep": 270,
+     "src": "speed",
+     "max": 35,
+     "color": "#c8453a",
+     "color2": "#1a0a09",
+     "caps": true
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 87,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "color": "#c8453a"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 160,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "#5c1f1a"
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 186,
+     "src": "battery",
+     "font": "4",
+     "align": "center",
+     "color": "#5c1f1a",
+     "unit": "%"
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 218,
+     "src": "power",
+     "font": "2",
+     "align": "center",
+     "color": "#3c1512",
+     "unit": " W"
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020903066801011001006b6d2f680000000000000000000000002500000000000000000000000000000020570000000000000000000000000000000027ca61284118e358a2380c11111201f0ffff000000000e000a00040000000044870000000000000000000c14121201f0ffff0000000028010800020000000044870000000000000000000c14121201f0ffff0000000030010800020000000044870000000000000000000c14121201f0ffff0000000038010800020000000044870000000000000000000401111301f0ffff23000000a0007c00680005002044870000000000000000000201110605f1ffff00000000a0005700000000000044870000000000000000000100140601f100ff00000000a000a000000000000044870000000000000000000203140602f101ff00000000a000ba00000000000044870000000000000000000202150601f102ff00000000a000da0000000000004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_retro-7": {
+  "design": {
+   "v": 2,
+   "name": "Retro 7",
+   "author": "NOVA",
+   "desc": "Gammeldags 7-segment-tal i rav på sort, som et instrument fra 80'erne",
+   "pages": 1,
+   "bg": "#0a0700",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "#ffb000",
+     "color2": "#4a3100"
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "#4a3100",
+     "color2": "#4a3100"
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "#4a3100",
+     "color2": "#4a3100"
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "#4a3100",
+     "color2": "#4a3100"
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 24,
+     "src": "speed",
+     "font": "7",
+     "align": "center",
+     "color": "#ffb000"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 90,
+     "text": "KM/H",
+     "font": "2",
+     "align": "center",
+     "color": "#4a3100"
+    },
+    {
+     "t": "segbar",
+     "x": 20,
+     "y": 116,
+     "w": 280,
+     "h": 22,
+     "n": 28,
+     "src": "speed",
+     "max": 35,
+     "color": "#ffb000",
+     "color2": "#1d1400"
+    },
+    {
+     "t": "text",
+     "x": 20,
+     "y": 156,
+     "text": "BATT %",
+     "font": "2",
+     "color": "#4a3100"
+    },
+    {
+     "t": "num",
+     "x": 20,
+     "y": 174,
+     "src": "battery",
+     "font": "6",
+     "color": "#ffb000"
+    },
+    {
+     "t": "text",
+     "x": 300,
+     "y": 156,
+     "text": "WATT",
+     "font": "2",
+     "align": "right",
+     "color": "#4a3100"
+    },
+    {
+     "t": "num",
+     "x": 300,
+     "y": 174,
+     "src": "power",
+     "font": "6",
+     "align": "right",
+     "color": "#ffb000"
+    },
+    {
+     "t": "bar",
+     "x": 20,
+     "y": 228,
+     "w": 280,
+     "h": 4,
+     "src": "battery",
+     "max": 100,
+     "color": "#4a3100",
+     "color2": "#1d1400",
+     "round": true,
+     "rad": 2
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020c0304c401011001004b4d2f480000000000000000000000004241545420250000000000000000000057415454000000000000000000000000200880fd8049a0180c11111201f0ffff000000000e000a00040000000044870000000000000000000c14121201f0ffff0000000028010800020000000044870000000000000000000c14121201f0ffff0000000030010800020000000044870000000000000000000c14121201f0ffff0000000038010800020000000044870000000000000000000201110604f1ffff00000000a0001800000000000044870000000000000000000100120601f100ff00000000a0005a00000000000044870000000000000000000a01111301f0ffff2300000014007400180116000044871c00000000000000000100120601f001ff0000000014009c00000000000044870000000000000000000203110603f0ffff000000001400ae00000000000044870000000000000000000100120601f202ff000000002c019c00000000000044870000000000000000000202110603f2ffff000000002c01ae00000000000044870000000000000000000303121301f0ffff640000001400e40018010400024487020000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_rolig": {
+  "design": {
+   "v": 2,
+   "name": "Rolig",
+   "author": "NOVA",
+   "desc": "Næsten tom skærm: kun farten i en tynd ring. Fin om aftenen",
+   "pages": 1,
+   "bg": "#05070a",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 124,
+     "r": 108,
+     "th": 6,
+     "a0": 150,
+     "sweep": 240,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "#14181c",
+     "caps": true
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 87,
+     "src": "speed",
+     "font": "8",
+     "align": "center"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 162,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 190,
+     "src": "battery",
+     "font": "2",
+     "align": "center",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "bar",
+     "x": 120,
+     "y": 218,
+     "w": 80,
+     "h": 4,
+     "src": "battery",
+     "max": 100,
+     "color": "dim",
+     "color2": "#14181c",
+     "round": true,
+     "rad": 2,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020902025001011001006b6d2f68000000000000000000000000250000000000000000000000000000002100c3100c11020501f0ffff000000000e000a00040000000044870000000000000000000c14050501f0ffff0000000028010800020000000044870000000000000000000c14050501f0ffff0000000030010800020000000044870000000000000000000c14050501f0ffff0000000038010800020000000044870000000000000000000401011101f0ffff23000000a0007c006c000600204b780000000000000000000201000605f1ffff00000000a0005700000000000044870000000000000000000100050601f100ff00000000a000a200000000000044870000000000000000000203000601f101ff00000000a000be0000000000004487000018000014000a000303051101f0ffff640000007800da0050000400024487020018000014000a00",
+  "pages": 1,
+  "file": []
+ },
+ "starter_sport": {
+  "design": {
+   "v": 2,
+   "name": "Sport",
+   "author": "NOVA",
+   "desc": "Kæmpe fart, lang farvebjælke og mode-knap. Tallet bliver gult og rødt, når du kører hurtigt",
+   "pages": 2,
+   "bg": "#08080b",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 24,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "warn": 25,
+     "bad": 32,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 100,
+     "text": "KM/H",
+     "font": "2",
+     "align": "center",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "segbar",
+     "x": 16,
+     "y": 128,
+     "w": 288,
+     "h": 22,
+     "n": 24,
+     "src": "speed",
+     "max": 35,
+     "color": "#ff3b30",
+     "color2": "#1c1c22",
+     "round": true,
+     "warn": 25,
+     "bad": 32,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 16,
+     "y": 162,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 166,
+     "src": "mode",
+     "font": "2",
+     "align": "center",
+     "color": "#ff3b30",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 304,
+     "y": 162,
+     "src": "power",
+     "font": "4",
+     "align": "right",
+     "unit": " W",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 16,
+     "y": 200,
+     "w": 200,
+     "h": 8,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "#1c1c22",
+     "round": true,
+     "rad": 4,
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 230,
+     "y": 190,
+     "w": 74,
+     "h": 40,
+     "action": "nextpage",
+     "text": "MODES",
+     "font": "2",
+     "rad": 12,
+     "color": "#ff3b30",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 8,
+     "text": "MODES",
+     "font": "4",
+     "color": "#ff3b30",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "walk",
+     "text": "WALK",
+     "font": "4",
+     "rad": 12,
+     "color2": "#ff3b30",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "eco",
+     "text": "ECO",
+     "font": "4",
+     "rad": 12,
+     "color2": "#ff3b30",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "drive",
+     "text": "DRIVE",
+     "font": "4",
+     "rad": 12,
+     "color2": "#ff3b30",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "4",
+     "rad": 12,
+     "color2": "#ff3b30",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "prevtrack",
+     "text": "<<",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "playpause",
+     "text": "PLAY",
+     "font": "2",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "nexttrack",
+     "text": ">>",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "prevpage",
+     "text": "BACK",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "safety",
+     "text": "20 KM/H",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "settings",
+     "text": "SETTINGS",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702180f0302040210010044454d4f0000000000000000000000004b4d2f4800000000000000000000000025000000000000000000000000000000205700000000000000000000000000004d4f444553000000000000000000000057414c4b00000000000000000000000045434f000000000000000000000000004452495645000000000000000000000053504f525400000000000000000000003c3c0000000000000000000000000000504c41590000000000000000000000003e3e00000000000000000000000000004241434b0000000000000000000000003230204b4d2f4800000000000000000053455454494e475300000000000000004108c6f9e4180c1102050100ffff000000000e000a000400000000448700000000000000000001000506010000ff0000000018000200000000000044870014030100000000000c1405050100ffff0000000028010800020000000044870000000000000000000c1405050100ffff0000000030010800020000000044870000000000000000000c1405050100ffff000000003801080002000000004487000000000000000000020100060501ffff00000000a00018000000000000448700000800001900200001000506010101ff00000000a0006400000000000044870000000000000000000a0111120100ffff23000000100080002001160002448718000800001900200002030006020002ff000000001000a20000000000004487000018000014000a00020a11060101ffff00000000a000a6000000000000448700000000000000000002020006020203ff000000003001a20000000000004487000000000000000000030302120100ffff640000001000c800c8000800024487040018000014000a0009011101010004ff00000000e600be004a0028000044870c000000000000000001001106021004ff00000000080008000000000000448700000000000000000009030011021005ff000000000800280094002c000044870c000000000000000009040011021006ff00000000a400280094002c000044870c000000000000000009050011021007ff0000000008005c0094002c000044870c000000000000000009060011021008ff00000000a4005c0094002c000044870c000000000000000009070001021009ff00000000080092005c0028000044870c00000000000000000908000101100aff00000000720092005c0028000044870c00000000000000000909000102100bff00000000dc0092005c0028000044870c00000000000000000902000101100cff000000000800c4005c0024000044870a0000000000000000090d000101100dff000000007200c4005c0024000044870a0000000000000000090a000101100eff00000000dc00c4005c0024000044870a0000000000000000",
+  "pages": 2,
+  "file": []
+ },
+ "starter_standard": {
+  "design": {
+   "v": 2,
+   "name": "Standard",
+   "author": "NOVA",
+   "desc": "Standard-skaermen. Du kan aendre alt: tekster, knapper og handlinger",
+   "pages": 2,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "arc",
+     "x": 90,
+     "y": 104,
+     "r": 82,
+     "th": 9,
+     "a0": 135,
+     "sweep": 270,
+     "src": "speed",
+     "max": 35,
+     "color": "#bfe6ea",
+     "color2": "neon",
+     "caps": true,
+     "knob": true,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 56,
+     "text": "_NOVA RIDE_",
+     "font": "1",
+     "align": "center",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 90,
+     "y": 67,
+     "src": "speed",
+     "font": "8",
+     "align": "center",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 150,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 290,
+     "y": 14,
+     "src": "total",
+     "font": "2",
+     "align": "right",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 290,
+     "y": 34,
+     "src": "power",
+     "font": "6",
+     "align": "right",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 296,
+     "y": 54,
+     "text": "W",
+     "font": "2",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 176,
+     "y": 87,
+     "w": 138,
+     "h": 6,
+     "src": "power",
+     "min": -800,
+     "max": 6000,
+     "color": "#d6d6d6",
+     "color2": "#4a4a4a",
+     "border": true,
+     "round": true,
+     "rad": 3,
+     "bidir": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 178,
+     "y": 100,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 314,
+     "y": 106,
+     "src": "volt",
+     "font": "2",
+     "align": "right",
+     "dp": 1,
+     "unit": " V",
+     "page": 0
+    },
+    {
+     "t": "bar",
+     "x": 176,
+     "y": 133,
+     "w": 138,
+     "h": 14,
+     "src": "battery",
+     "max": 100,
+     "color": "#d6d6d6",
+     "color2": "#4a4a4a",
+     "border": true,
+     "round": true,
+     "rad": 7,
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 178,
+     "y": 158,
+     "src": "temp",
+     "font": "1",
+     "pre": "CTRL ",
+     "unit": "C",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 314,
+     "y": 156,
+     "src": "current",
+     "font": "1",
+     "align": "right",
+     "pre": "BATT ",
+     "unit": " A",
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 178,
+     "y": 175,
+     "w": 97,
+     "h": 47,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "4",
+     "rad": 13,
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 281,
+     "y": 175,
+     "w": 33,
+     "h": 47,
+     "action": "none",
+     "text": "RACE",
+     "font": "1",
+     "rad": 11,
+     "color": "#9b5a64",
+     "color2": "#9b5a64",
+     "show": {
+      "src": "limit",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 281,
+     "y": 175,
+     "w": 33,
+     "h": 47,
+     "action": "nextpage",
+     "text": "RACE",
+     "font": "1",
+     "rad": 11,
+     "color": "bad",
+     "color2": "bad",
+     "show": {
+      "src": "limit",
+      "op": "==",
+      "val": 0
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 84,
+     "y": 10,
+     "r": 4,
+     "src": "limit",
+     "color": "warn",
+     "color2": "bg",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 92,
+     "y": 2,
+     "text": "LIMIT 20",
+     "font": "2",
+     "color": "warn",
+     "show": {
+      "src": "limit",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 8,
+     "y": 8,
+     "text": "MODES",
+     "font": "4",
+     "color": "neon",
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "walk",
+     "text": "WALK",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 40,
+     "w": 148,
+     "h": 44,
+     "action": "eco",
+     "text": "ECO",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "drive",
+     "text": "DRIVE",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 164,
+     "y": 92,
+     "w": 148,
+     "h": 44,
+     "action": "sport",
+     "text": "SPORT",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "prevtrack",
+     "text": "<<",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "playpause",
+     "text": "PLAY",
+     "font": "2",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 146,
+     "w": 92,
+     "h": 40,
+     "action": "nexttrack",
+     "text": ">>",
+     "font": "4",
+     "rad": 12,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 8,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "prevpage",
+     "text": "BACK",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 114,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "safety",
+     "text": "20 KM/H",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 220,
+     "y": 196,
+     "w": 92,
+     "h": 36,
+     "action": "settings",
+     "text": "SETTINGS",
+     "font": "2",
+     "rad": 10,
+     "page": 1
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702221704c405020701005f4e4f564120524944455f00000000006b6d2f68000000000000000000000000570000000000000000000000000000002500000000000000000000000000000020560000000000000000000000000000430000000000000000000000000000004354524c200000000000000000000000204100000000000000000000000000004241545420000000000000000000000053504f525400000000000000000000005241434500000000000000000000000044454d4f0000000000000000000000004c494d495420323000000000000000004d4f444553000000000000000000000057414c4b00000000000000000000000045434f00000000000000000000000000445249564500000000000000000000003c3c0000000000000000000000000000504c41590000000000000000000000003e3e00000000000000000000000000004241434b0000000000000000000000003230204b4d2f4800000000000000000053455454494e475300000000000000003dbfbad6494acc9a040110010100ffff230000005a0068005200090028448700000000000000000001000006000100ff000000005a00380000000000004487000000000000000000020100060501ffff000000005a0043000000000000448700000000000000000001000506010101ff000000005a00960000000000004487000000000000000000020905060102ffff0000000022010e0000000000004487000000000000000000020200060302ffff00000000220122000000000000448700000000000000000001000506010002ff000000002801360000000000004487000000000000000000030211120100ffff7017e0fcb00057008a00060046448703000000000000000002030006020003ff00000000b200640000000000004487000018000014000a0002040006010604ff000000003a016a0000000000004487000000000000000000030311120100ffff64000000b00085008a000e00064487070018000014000a00020600060000050600000000b2009e00000000000044870000000000000000000205000600020708000000003a019c000000000000448700000000000000000009060001020009ff00000000b200af0061002f000044870d00000000000000000900131300000aff000000001901af0021002f000044870b13030100000000000901040400000aff000000001901af0021002f000044870b13030000000000000c1102050100ffff000000000e000a00040000000044870000000000000000000100050601000bff0000000018000200000000000044870014030100000000000c1303070100ffff0000000054000a00040000000044870000000000000000000100030601000cff000000005c000200000000000044870013030100000000000c1405050100ffff0000000028010800020000000044870000000000000000000c1405050100ffff0000000030010800020000000044870000000000000000000c1405050100ffff0000000038010800020000000044870000000000000000000100010602100dff0000000008000800000000000044870000000000000000000903000102100eff000000000800280094002c000044870c00000000000000000904000102100fff00000000a400280094002c000044870c000000000000000009050001021010ff0000000008005c0094002c000044870c000000000000000009060001021009ff00000000a4005c0094002c000044870c000000000000000009070001021011ff00000000080092005c0028000044870c000000000000000009080001011012ff00000000720092005c0028000044870c000000000000000009090001021013ff00000000dc0092005c0028000044870c000000000000000009020001011014ff000000000800c4005c0024000044870a0000000000000000090d0001011015ff000000007200c4005c0024000044870a0000000000000000090a0001011016ff00000000dc00c4005c0024000044870a0000000000000000",
+  "pages": 2,
+  "file": []
+ },
+ "starter_to-ringe": {
+  "design": {
+   "v": 2,
+   "name": "To ringe",
+   "author": "NOVA",
+   "desc": "Yderste ring er farten, inderste er batteriet. Alt vigtigt i ét blik",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim"
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim"
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 122,
+     "r": 112,
+     "th": 10,
+     "a0": 135,
+     "sweep": 270,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "caps": true,
+     "knob": true
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 122,
+     "r": 90,
+     "th": 7,
+     "a0": 135,
+     "sweep": 270,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "caps": true,
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 85,
+     "src": "speed",
+     "font": "8",
+     "align": "center"
+    },
+    {
+     "t": "text",
+     "x": 160,
+     "y": 158,
+     "text": "km/h",
+     "font": "2",
+     "align": "center",
+     "color": "dim"
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 180,
+     "src": "battery",
+     "font": "2",
+     "align": "center",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true
+    },
+    {
+     "t": "num",
+     "x": 22,
+     "y": 218,
+     "src": "power",
+     "font": "2",
+     "unit": " W"
+    },
+    {
+     "t": "num",
+     "x": 298,
+     "y": 218,
+     "src": "volt",
+     "font": "2",
+     "align": "right",
+     "unit": " V",
+     "dp": 1
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57020c0500dc010107010044454d4f0000000000000000000000006b6d2f680000000000000000000000002500000000000000000000000000000020570000000000000000000000000000205600000000000000000000000000000c11020501f0ffff000000000e000a00040000000044870000000000000000000100050601f000ff0000000018000200000000000044870014030100000000000c14050501f0ffff0000000028010800020000000044870000000000000000000c14050501f0ffff0000000030010800020000000044870000000000000000000c14050501f0ffff0000000038010800020000000044870000000000000000000401010601f0ffff23000000a0007a0070000a002844870000000000000000000403020601f0ffff64000000a0007a005a000700204487000018000014000a000201000605f1ffff00000000a0005500000000000044870000000000000000000100050601f101ff00000000a0009e00000000000044870000000000000000000203000601f102ff00000000a000b40000000000004487000018000014000a000202000601f003ff000000001600da00000000000044870000000000000000000204000601f604ff000000002a01da0000000000004487000000000000000000",
+  "pages": 1,
+  "file": []
+ },
+ "starter_turcomputer": {
+  "design": {
+   "v": 2,
+   "name": "Turcomputer",
+   "author": "NOVA",
+   "desc": "Dagens tur: fart, distance, tid, topfart og energi, og grafer over det sidste stykke",
+   "pages": 2,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "dot",
+     "x": 14,
+     "y": 10,
+     "r": 4,
+     "src": "ble",
+     "color": "ok",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 24,
+     "y": 2,
+     "text": "DEMO",
+     "font": "2",
+     "color": "dim",
+     "show": {
+      "src": "demo",
+      "op": "==",
+      "val": 1
+     },
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 296,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 304,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "dot",
+     "x": 312,
+     "y": 8,
+     "r": 2,
+     "src": "demo",
+     "color": "dim",
+     "color2": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 12,
+     "y": 30,
+     "src": "speed",
+     "font": "8",
+     "align": "left",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 14,
+     "y": 100,
+     "text": "km/h",
+     "font": "2",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 176,
+     "y": 30,
+     "text": "TRIP KM",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 26,
+     "src": "trip",
+     "font": "4",
+     "align": "right",
+     "dp": 1,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 176,
+     "y": 62,
+     "text": "RIDE TIME",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 58,
+     "src": "ridetime",
+     "font": "4",
+     "align": "right",
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 176,
+     "y": 94,
+     "text": "TOP KM/H",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 312,
+     "y": 90,
+     "src": "maxspeed",
+     "font": "4",
+     "align": "right",
+     "page": 0
+    },
+    {
+     "t": "spark",
+     "x": 12,
+     "y": 130,
+     "w": 300,
+     "h": 52,
+     "src": "speed",
+     "max": 35,
+     "color": "neon",
+     "color2": "panel",
+     "th": 2,
+     "fill": true,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 12,
+     "y": 190,
+     "text": "SPEED, 2 MIN",
+     "font": "1",
+     "color": "dim",
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 12,
+     "y": 208,
+     "src": "battery",
+     "font": "4",
+     "unit": "%",
+     "warn": 20,
+     "bad": 10,
+     "below": true,
+     "page": 0
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 214,
+     "src": "energy",
+     "font": "2",
+     "align": "center",
+     "unit": " Wh",
+     "page": 0
+    },
+    {
+     "t": "button",
+     "x": 262,
+     "y": 196,
+     "w": 50,
+     "h": 36,
+     "action": "nextpage",
+     "text": "GRAPHS",
+     "font": "1",
+     "rad": 10,
+     "page": 0
+    },
+    {
+     "t": "text",
+     "x": 12,
+     "y": 8,
+     "text": "POWER W",
+     "font": "2",
+     "color": "neon",
+     "page": 1
+    },
+    {
+     "t": "spark",
+     "x": 12,
+     "y": 30,
+     "w": 296,
+     "h": 76,
+     "src": "power",
+     "max": 4000,
+     "color": "warn",
+     "color2": "panel",
+     "th": 2,
+     "min": 0,
+     "fill": true,
+     "page": 1
+    },
+    {
+     "t": "text",
+     "x": 12,
+     "y": 116,
+     "text": "BATTERY %",
+     "font": "2",
+     "color": "neon",
+     "page": 1
+    },
+    {
+     "t": "spark",
+     "x": 12,
+     "y": 138,
+     "w": 296,
+     "h": 60,
+     "src": "battery",
+     "max": 100,
+     "color": "ok",
+     "color2": "panel",
+     "th": 2,
+     "min": 0,
+     "fill": true,
+     "page": 1
+    },
+    {
+     "t": "num",
+     "x": 12,
+     "y": 208,
+     "src": "speed",
+     "font": "4",
+     "unit": " km/h",
+     "page": 1
+    },
+    {
+     "t": "num",
+     "x": 160,
+     "y": 208,
+     "src": "volt",
+     "font": "4",
+     "align": "center",
+     "unit": " V",
+     "dp": 1,
+     "page": 1
+    },
+    {
+     "t": "button",
+     "x": 262,
+     "y": 202,
+     "w": 50,
+     "h": 32,
+     "action": "prevpage",
+     "text": "BACK",
+     "font": "1",
+     "rad": 10,
+     "page": 1
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e5702190e000c040207010044454d4f0000000000000000000000006b6d2f6800000000000000000000000054524950204b4d000000000000000000524944452054494d4500000000000000544f50204b4d2f48000000000000000053504545442c2032204d494e00000000250000000000000000000000000000002057680000000000000000000000000047524150485300000000000000000000504f574552205700000000000000000042415454455259202500000000000000206b6d2f680000000000000000000000205600000000000000000000000000004241434b0000000000000000000000000c1102050100ffff000000000e000a000400000000448700000000000000000001000506010000ff0000000018000200000000000044870014030100000000000c1405050100ffff0000000028010800020000000044870000000000000000000c1405050100ffff0000000030010800020000000044870000000000000000000c1405050100ffff000000003801080002000000004487000000000000000000020100060500ffff000000000c001e000000000000448700000000000000000001000506010001ff000000000e0064000000000000448700000000000000000001000506000002ff00000000b0001e0000000000004487000000000000000000020800060206ffff0000000038011a000000000000448700000000000000000001000506000003ff00000000b0003e0000000000004487000000000000000000021000060202ffff0000000038013a000000000000448700000000000000000001000506000004ff00000000b0005e0000000000004487000000000000000000020c00060202ffff0000000038015a00000000000044870000000000000000000b0101060100ffff230000000c0082002c01340001448702000000000000000001000506000005ff000000000c00be000000000000448700000000000000000002030006020006ff000000000c00d00000000000004487000018000014000a00020f0006010107ff00000000a000d6000000000000448700000000000000000009010001000008ff000000000601c400320024000044870a000000000000000001000106011009ff000000000c000800000000000044870000000000000000000b0203060110ffffa00f00000c001e0028014c000144870200000000000000000100010601100aff000000000c007400000000000044870000000000000000000b0302060110ffff640000000c008a0028013c000144870200000000000000000201000602100bff000000000c00d000000000000044870000000000000000000204000602150cff00000000a000d000000000000044870000000000000000000902000100100dff000000000601ca00320020000044870a0000000000000000",
+  "pages": 2,
+  "file": []
+ },
+ "pet_kat": {
+  "design": {
+   "v": 2,
+   "name": "Pet kat",
+   "author": "NOVA",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "circle",
+     "x": 123,
+     "y": 84,
+     "r": 18,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 116,
+     "y": 68,
+     "r": 10,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 123,
+     "y": 81,
+     "r": 8,
+     "fill": true,
+     "color": "#f28fa6",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 197,
+     "y": 84,
+     "r": 18,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 204,
+     "y": 68,
+     "r": 10,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 197,
+     "y": 81,
+     "r": 8,
+     "fill": true,
+     "color": "#f28fa6",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 130,
+     "r": 60,
+     "fill": true,
+     "color": "#f2a65a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 153,
+     "r": 26,
+     "fill": true,
+     "color": "#fff1de",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 137,
+     "r": 6,
+     "fill": true,
+     "color": "#f28fa6",
+     "grp": "pet"
+    },
+    {
+     "t": "line",
+     "x": 98,
+     "y": 141,
+     "w": 25,
+     "h": 6,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "line",
+     "x": 98,
+     "y": 153,
+     "w": 25,
+     "h": 3,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet"
+    },
+    {
+     "t": "line",
+     "x": 197,
+     "y": 141,
+     "w": 25,
+     "h": 6,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet"
+    },
+    {
+     "t": "line",
+     "x": 197,
+     "y": 153,
+     "w": 25,
+     "h": 3,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 137,
+     "y": 122,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 137,
+     "y": 126,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 129,
+     "y": 122,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 137,
+     "y": 123,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 128,
+     "y": 105,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 131,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 131,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 183,
+     "y": 122,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 183,
+     "y": 126,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 175,
+     "y": 122,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 183,
+     "y": 123,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 174,
+     "y": 105,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 177,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 177,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 141,
+     "r": 20,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 143,
+     "r": 16,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 150,
+     "y": 154,
+     "w": 20,
+     "h": 0,
+     "th": 4,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 165,
+     "r": 14,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 156,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 214,
+     "y": 101,
+     "r": 5,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57022302059604010701007a5a00000000000000000000000000003c3300000000000000000000000000002bf574f49bff46299f8e0700100601f0ffff000000007b005400120000000144870000000000000000000700100601f0ffff00000000740044000a0000000144870000000000000000000700110601f0ffff000000007b005100080000000144870000000000000000000700100601f0ffff00000000c5005400120000000144870000000000000000000700100601f0ffff00000000cc0044000a0000000144870000000000000000000700110601f0ffff00000000c5005100080000000144870000000000000000000700100601f0ffff00000000a00082003c0000000144870000000000000000000700120601f0ffff00000000a00099001a0000000144870000000000000000000700110601f0ffff00000000a0008900060000000144870000000000000000000800130601f0ffff0000000062008d00190006000044870200000000000000000800130601f0ffff0000000062009900190003008044870200000000000000000800130601f0ffff00000000c5008d00190006008044870200000000000000000800130601f0ffff00000000c5009900190003000044870200000000000000000700130601f0ffff0000000089007a00060000000144870019030300000000000419131301f0ffff0400000089007e00080003002064460019030400000000000800130601f0ffff0000000081007a00100000000044870319030200000000000700130601f0ffff0000000089007b00050000000144870019030100000000000800130601f0ffff0000000080006900120007008044870219030100000000000800130601f0ffff00000000830074000c000c000044870319030000000000000800130601f0ffff00000000830074000c000c008044870319030000000000000700130601f0ffff00000000b7007a00060000000144870019030300000000000419131301f0ffff04000000b7007e00080003002064460019030400000000000800130601f0ffff00000000af007a00100000000044870319030200000000000700130601f0ffff00000000b7007b00050000000144870019030100000000000800130601f0ffff00000000ae006900120007000044870219030100000000000800130601f0ffff00000000b10074000c000c000044870319030000000000000800130601f0ffff00000000b10074000c000c008044870319030000000000000419131301f0ffff04000000a0008d0014000400200b440019030400000000000419131301f0ffff04000000a0008f00100004002013340019030300000000000800130601f0ffff0000000096009a00140000000044870419030200000000000419131301f0ffff04000000a000a5000e000400206f300019030100000000000700130601f0ffff00000000a0009c00070000000444870319030000000000000700140601f0ffff00000000d6006500050000000144870019030100000000000100050601f000ff00000000e0004100000000000044870019030200000000000100040601f001ff00000000e000410000000000004487001903040000000000",
+  "pages": 1,
+  "file": []
+ },
+ "pet_hund": {
+  "design": {
+   "v": 2,
+   "name": "Pet hund",
+   "author": "NOVA",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "rect",
+     "x": 75,
+     "y": 96,
+     "w": 29,
+     "h": 62,
+     "rad": 14,
+     "fill": true,
+     "color": "#8a5a30",
+     "grp": "pet"
+    },
+    {
+     "t": "rect",
+     "x": 216,
+     "y": 96,
+     "w": 29,
+     "h": 62,
+     "rad": 14,
+     "fill": true,
+     "color": "#8a5a30",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 130,
+     "r": 60,
+     "fill": true,
+     "color": "#c58a52",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 154,
+     "r": 29,
+     "fill": true,
+     "color": "#f5e3c8",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 138,
+     "r": 8,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 136,
+     "y": 119,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 136,
+     "y": 124,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 128,
+     "y": 119,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 136,
+     "y": 120,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 127,
+     "y": 102,
+     "w": 18,
+     "h": 8,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 130,
+     "y": 113,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 130,
+     "y": 113,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 184,
+     "y": 119,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 184,
+     "y": 124,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 176,
+     "y": 119,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 184,
+     "y": 120,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 175,
+     "y": 102,
+     "w": 18,
+     "h": 8,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 178,
+     "y": 113,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 178,
+     "y": 113,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 149,
+     "r": 20,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 152,
+     "r": 16,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 150,
+     "y": 162,
+     "w": 20,
+     "h": 0,
+     "th": 4,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 173,
+     "r": 14,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 165,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 215,
+     "y": 99,
+     "r": 5,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021b02059603010701007a5a00000000000000000000000000003c330000000000000000000000000000c68a4ac419f746299f8e0600100601f0ffff000000004b0060001d003e000144870e00000000000000000600100601f0ffff00000000d80060001d003e000144870e00000000000000000700110601f0ffff00000000a00082003c0000000144870000000000000000000700120601f0ffff00000000a0009a001d0000000144870000000000000000000700130601f0ffff00000000a0008a00080000000144870000000000000000000700130601f0ffff0000000088007700060000000144870019030300000000000419131301f0ffff0400000088007c00080003002064460019030400000000000800130601f0ffff0000000080007700100000000044870319030200000000000700130601f0ffff0000000088007800050000000144870019030100000000000800130601f0ffff000000007f006600120008008044870219030100000000000800130601f0ffff00000000820071000c000c000044870319030000000000000800130601f0ffff00000000820071000c000c008044870319030000000000000700130601f0ffff00000000b8007700060000000144870019030300000000000419131301f0ffff04000000b8007c00080003002064460019030400000000000800130601f0ffff00000000b0007700100000000044870319030200000000000700130601f0ffff00000000b8007800050000000144870019030100000000000800130601f0ffff00000000af006600120008000044870219030100000000000800130601f0ffff00000000b20071000c000c000044870319030000000000000800130601f0ffff00000000b20071000c000c008044870319030000000000000419131301f0ffff04000000a000950014000400200b440019030400000000000419131301f0ffff04000000a0009800100004002013340019030300000000000800130601f0ffff000000009600a200140000000044870419030200000000000419131301f0ffff04000000a000ad000e000400206f300019030100000000000700130601f0ffff00000000a000a500070000000444870319030000000000000700140601f0ffff00000000d7006300050000000144870019030100000000000100050601f000ff00000000e0004100000000000044870019030200000000000100040601f001ff00000000e000410000000000004487001903040000000000",
+  "pages": 1,
+  "file": []
+ },
+ "pet_raev": {
+  "design": {
+   "v": 2,
+   "name": "Pet raev",
+   "author": "NOVA",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "circle",
+     "x": 123,
+     "y": 84,
+     "r": 19,
+     "fill": true,
+     "color": "#ee8a3a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 114,
+     "y": 66,
+     "r": 10,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 197,
+     "y": 84,
+     "r": 19,
+     "fill": true,
+     "color": "#ee8a3a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 206,
+     "y": 66,
+     "r": 10,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 130,
+     "r": 60,
+     "fill": true,
+     "color": "#ee8a3a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 129,
+     "y": 152,
+     "r": 30,
+     "fill": true,
+     "color": "#ffffff",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 191,
+     "y": 152,
+     "r": 30,
+     "fill": true,
+     "color": "#ffffff",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 164,
+     "r": 20,
+     "fill": true,
+     "color": "#ffffff",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 144,
+     "r": 7,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 137,
+     "y": 122,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 137,
+     "y": 126,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 129,
+     "y": 122,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 137,
+     "y": 123,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 128,
+     "y": 105,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 131,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 131,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 183,
+     "y": 122,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 183,
+     "y": 126,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 175,
+     "y": 122,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 183,
+     "y": 123,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 174,
+     "y": 105,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 177,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 177,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 152,
+     "r": 20,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 154,
+     "r": 16,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 150,
+     "y": 165,
+     "w": 20,
+     "h": 0,
+     "th": 4,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 176,
+     "r": 14,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 167,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 214,
+     "y": 101,
+     "r": 5,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021f02041404010701007a5a00000000000000000000000000003c33000000000000000000000000000047ec4629ffff9f8e0700100601f0ffff000000007b005400130000000144870000000000000000000700110601f0ffff00000000720042000a0000000144870000000000000000000700100601f0ffff00000000c5005400130000000144870000000000000000000700110601f0ffff00000000ce0042000a0000000144870000000000000000000700100601f0ffff00000000a00082003c0000000144870000000000000000000700120601f0ffff00000000810098001e0000000144870000000000000000000700120601f0ffff00000000bf0098001e0000000144870000000000000000000700120601f0ffff00000000a000a400140000000144870000000000000000000700110601f0ffff00000000a0009000070000000144870000000000000000000700110601f0ffff0000000089007a00060000000144870019030300000000000419111101f0ffff0400000089007e00080003002064460019030400000000000800110601f0ffff0000000081007a00100000000044870319030200000000000700110601f0ffff0000000089007b00050000000144870019030100000000000800110601f0ffff0000000080006900120007008044870219030100000000000800110601f0ffff00000000830074000c000c000044870319030000000000000800110601f0ffff00000000830074000c000c008044870319030000000000000700110601f0ffff00000000b7007a00060000000144870019030300000000000419111101f0ffff04000000b7007e00080003002064460019030400000000000800110601f0ffff00000000af007a00100000000044870319030200000000000700110601f0ffff00000000b7007b00050000000144870019030100000000000800110601f0ffff00000000ae006900120007000044870219030100000000000800110601f0ffff00000000b10074000c000c000044870319030000000000000800110601f0ffff00000000b10074000c000c008044870319030000000000000419111101f0ffff04000000a000980014000400200b440019030400000000000419111101f0ffff04000000a0009a00100004002013340019030300000000000800110601f0ffff000000009600a500140000000044870419030200000000000419111101f0ffff04000000a000b0000e000400206f300019030100000000000700110601f0ffff00000000a000a700070000000444870319030000000000000700130601f0ffff00000000d6006500050000000144870019030100000000000100050601f000ff00000000e0004100000000000044870019030200000000000100040601f001ff00000000e000410000000000004487001903040000000000",
+  "pages": 1,
+  "file": []
+ },
+ "pet_kanin": {
+  "design": {
+   "v": 2,
+   "name": "Pet kanin",
+   "author": "NOVA",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "rect",
+     "x": 117,
+     "y": 12,
+     "w": 28,
+     "h": 84,
+     "rad": 14,
+     "fill": true,
+     "color": "#f4f4f6",
+     "grp": "pet"
+    },
+    {
+     "t": "rect",
+     "x": 124,
+     "y": 21,
+     "w": 13,
+     "h": 65,
+     "rad": 6,
+     "fill": true,
+     "color": "#f49ab0",
+     "grp": "pet"
+    },
+    {
+     "t": "rect",
+     "x": 176,
+     "y": 12,
+     "w": 28,
+     "h": 84,
+     "rad": 14,
+     "fill": true,
+     "color": "#f4f4f6",
+     "grp": "pet"
+    },
+    {
+     "t": "rect",
+     "x": 183,
+     "y": 21,
+     "w": 13,
+     "h": 65,
+     "rad": 6,
+     "fill": true,
+     "color": "#f49ab0",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 130,
+     "r": 60,
+     "fill": true,
+     "color": "#f4f4f6",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 152,
+     "r": 20,
+     "fill": true,
+     "color": "#ffe3ea",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 138,
+     "r": 5,
+     "fill": true,
+     "color": "#f49ab0",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 123,
+     "y": 146,
+     "r": 8,
+     "fill": true,
+     "color": "#f49ab0",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 197,
+     "y": 146,
+     "r": 8,
+     "fill": true,
+     "color": "#f49ab0",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 137,
+     "y": 122,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 137,
+     "y": 126,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 129,
+     "y": 122,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 137,
+     "y": 123,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 128,
+     "y": 105,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 131,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 131,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 183,
+     "y": 122,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 183,
+     "y": 126,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 175,
+     "y": 122,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 183,
+     "y": 123,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 174,
+     "y": 105,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 177,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 177,
+     "y": 116,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 142,
+     "r": 20,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 144,
+     "r": 16,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 150,
+     "y": 155,
+     "w": 20,
+     "h": 0,
+     "th": 4,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 166,
+     "r": 14,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 158,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 214,
+     "y": 101,
+     "r": 5,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021f02051604010701007a5a00000000000000000000000000003c330000000000000000000000000000bef7d6f41dff46299f8e0600100601f0ffff0000000075000c001c0054000144870e00000000000000000600110601f0ffff000000007c0015000d0041000144870600000000000000000600100601f0ffff00000000b0000c001c0054000144870e00000000000000000600110601f0ffff00000000b70015000d0041000144870600000000000000000700100601f0ffff00000000a00082003c0000000144870000000000000000000700120601f0ffff00000000a0009800140000000144870000000000000000000700110601f0ffff00000000a0008a00050000000144870000000000000000000700110601f0ffff000000007b009200080000000144870000000000000000000700110601f0ffff00000000c5009200080000000144870000000000000000000700130601f0ffff0000000089007a00060000000144870019030300000000000419131301f0ffff0400000089007e00080003002064460019030400000000000800130601f0ffff0000000081007a00100000000044870319030200000000000700130601f0ffff0000000089007b00050000000144870019030100000000000800130601f0ffff0000000080006900120007008044870219030100000000000800130601f0ffff00000000830074000c000c000044870319030000000000000800130601f0ffff00000000830074000c000c008044870319030000000000000700130601f0ffff00000000b7007a00060000000144870019030300000000000419131301f0ffff04000000b7007e00080003002064460019030400000000000800130601f0ffff00000000af007a00100000000044870319030200000000000700130601f0ffff00000000b7007b00050000000144870019030100000000000800130601f0ffff00000000ae006900120007000044870219030100000000000800130601f0ffff00000000b10074000c000c000044870319030000000000000800130601f0ffff00000000b10074000c000c008044870319030000000000000419131301f0ffff04000000a0008e0014000400200b440019030400000000000419131301f0ffff04000000a0009000100004002013340019030300000000000800130601f0ffff0000000096009b00140000000044870419030200000000000419131301f0ffff04000000a000a6000e000400206f300019030100000000000700130601f0ffff00000000a0009e00070000000444870319030000000000000700140601f0ffff00000000d6006500050000000144870019030100000000000100050601f000ff00000000e0004100000000000044870019030200000000000100040601f001ff00000000e000410000000000004487001903040000000000",
+  "pages": 1,
+  "file": []
+ },
+ "pet_panda": {
+  "design": {
+   "v": 2,
+   "name": "Pet panda",
+   "author": "NOVA",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "circle",
+     "x": 116,
+     "y": 84,
+     "r": 22,
+     "fill": true,
+     "color": "#15151a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 204,
+     "y": 84,
+     "r": 22,
+     "fill": true,
+     "color": "#15151a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 130,
+     "r": 60,
+     "fill": true,
+     "color": "#f6f6f6",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 136,
+     "y": 124,
+     "r": 18,
+     "fill": true,
+     "color": "#15151a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 184,
+     "y": 124,
+     "r": 18,
+     "fill": true,
+     "color": "#15151a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 143,
+     "r": 7,
+     "fill": true,
+     "color": "#15151a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 122,
+     "y": 148,
+     "r": 7,
+     "fill": true,
+     "color": "#f49ab0",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 198,
+     "y": 148,
+     "r": 7,
+     "fill": true,
+     "color": "#f49ab0",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 136,
+     "y": 124,
+     "r": 6,
+     "fill": true,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 136,
+     "y": 129,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#ffffff",
+     "color2": "#ffffff",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 128,
+     "y": 124,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 136,
+     "y": 125,
+     "r": 5,
+     "fill": true,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 127,
+     "y": 107,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#ffffff",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 130,
+     "y": 118,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 130,
+     "y": 118,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#ffffff",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 184,
+     "y": 124,
+     "r": 6,
+     "fill": true,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 184,
+     "y": 129,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#ffffff",
+     "color2": "#ffffff",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 176,
+     "y": 124,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 184,
+     "y": 125,
+     "r": 5,
+     "fill": true,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 175,
+     "y": 107,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 178,
+     "y": 118,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#ffffff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 178,
+     "y": 118,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#ffffff",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 147,
+     "r": 20,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#15151a",
+     "color2": "#15151a",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 149,
+     "r": 16,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#15151a",
+     "color2": "#15151a",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 150,
+     "y": 160,
+     "w": 20,
+     "h": 0,
+     "th": 4,
+     "color": "#15151a",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 171,
+     "r": 14,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#15151a",
+     "color2": "#15151a",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 162,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#15151a",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 215,
+     "y": 104,
+     "r": 5,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021e0205f603010701007a5a00000000000000000000000000003c330000000000000000000000000000a310bef7d6f4ffff9f8e0700100601f0ffff0000000074005400160000000144870000000000000000000700100601f0ffff00000000cc005400160000000144870000000000000000000700110601f0ffff00000000a00082003c0000000144870000000000000000000700100601f0ffff0000000088007c00120000000144870000000000000000000700100601f0ffff00000000b8007c00120000000144870000000000000000000700100601f0ffff00000000a0008f00070000000144870000000000000000000700120601f0ffff000000007a009400070000000144870000000000000000000700120601f0ffff00000000c6009400070000000144870000000000000000000700130601f0ffff0000000088007c00060000000144870019030300000000000419131301f0ffff0400000088008100080003002064460019030400000000000800130601f0ffff0000000080007c00100000000044870319030200000000000700130601f0ffff0000000088007d00050000000144870019030100000000000800130601f0ffff000000007f006b00120007008044870219030100000000000800130601f0ffff00000000820076000c000c000044870319030000000000000800130601f0ffff00000000820076000c000c008044870319030000000000000700130601f0ffff00000000b8007c00060000000144870019030300000000000419131301f0ffff04000000b8008100080003002064460019030400000000000800130601f0ffff00000000b0007c00100000000044870319030200000000000700130601f0ffff00000000b8007d00050000000144870019030100000000000800130601f0ffff00000000af006b00120007000044870219030100000000000800130601f0ffff00000000b20076000c000c000044870319030000000000000800130601f0ffff00000000b20076000c000c008044870319030000000000000419101001f0ffff04000000a000930014000400200b440019030400000000000419101001f0ffff04000000a0009500100004002013340019030300000000000800100601f0ffff000000009600a000140000000044870419030200000000000419101001f0ffff04000000a000ab000e000400206f300019030100000000000700100601f0ffff00000000a000a200070000000444870319030000000000000700140601f0ffff00000000d7006800050000000144870019030100000000000100050601f000ff00000000e0004100000000000044870019030200000000000100040601f001ff00000000e000410000000000004487001903040000000000",
+  "pages": 1,
+  "file": []
+ },
+ "pet_pingvin": {
+  "design": {
+   "v": 2,
+   "name": "Pet pingvin",
+   "author": "NOVA",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 130,
+     "r": 60,
+     "fill": true,
+     "color": "#34425c",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 142,
+     "r": 46,
+     "fill": true,
+     "color": "#ffffff",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 146,
+     "r": 8,
+     "fill": true,
+     "color": "#ffa630",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 138,
+     "y": 123,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 138,
+     "y": 128,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 131,
+     "y": 123,
+     "w": 15,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 138,
+     "y": 124,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 129,
+     "y": 106,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 132,
+     "y": 117,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 132,
+     "y": 117,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 182,
+     "y": 123,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 182,
+     "y": 128,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 174,
+     "y": 123,
+     "w": 15,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 182,
+     "y": 124,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 173,
+     "y": 106,
+     "w": 18,
+     "h": 7,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 176,
+     "y": 117,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 176,
+     "y": 117,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 150,
+     "r": 20,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 153,
+     "r": 16,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 150,
+     "y": 164,
+     "w": 20,
+     "h": 0,
+     "th": 4,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 174,
+     "r": 14,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 166,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 213,
+     "y": 102,
+     "r": 5,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021902055603010701007a5a00000000000000000000000000003c3300000000000000000000000000000b32ffff26fd46299f8e0700100601f0ffff00000000a00082003c0000000144870000000000000000000700110601f0ffff00000000a0008e002e0000000144870000000000000000000700120601f0ffff00000000a0009200080000000144870000000000000000000700130601f0ffff000000008a007b00060000000144870019030300000000000419131301f0ffff040000008a008000080003002064460019030400000000000800130601f0ffff0000000083007b000f0000000044870319030200000000000700130601f0ffff000000008a007c00050000000144870019030100000000000800130601f0ffff0000000081006a00120007008044870219030100000000000800130601f0ffff00000000840075000c000c000044870319030000000000000800130601f0ffff00000000840075000c000c008044870319030000000000000700130601f0ffff00000000b6007b00060000000144870019030300000000000419131301f0ffff04000000b6008000080003002064460019030400000000000800130601f0ffff00000000ae007b000f0000000044870319030200000000000700130601f0ffff00000000b6007c00050000000144870019030100000000000800130601f0ffff00000000ad006a00120007000044870219030100000000000800130601f0ffff00000000b00075000c000c000044870319030000000000000800130601f0ffff00000000b00075000c000c008044870319030000000000000419131301f0ffff04000000a000960014000400200b440019030400000000000419131301f0ffff04000000a0009900100004002013340019030300000000000800130601f0ffff000000009600a400140000000044870419030200000000000419131301f0ffff04000000a000ae000e000400206f300019030100000000000700130601f0ffff00000000a000a600070000000444870319030000000000000700140601f0ffff00000000d5006600050000000144870019030100000000000100050601f000ff00000000e0004100000000000044870019030200000000000100040601f001ff00000000e000410000000000004487001903040000000000",
+  "pages": 1,
+  "file": []
+ },
+ "pet_ugle": {
+  "design": {
+   "v": 2,
+   "name": "Pet ugle",
+   "author": "NOVA",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "circle",
+     "x": 123,
+     "y": 75,
+     "r": 13,
+     "fill": true,
+     "color": "#a9784a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 117,
+     "y": 60,
+     "r": 8,
+     "fill": true,
+     "color": "#a9784a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 197,
+     "y": 75,
+     "r": 13,
+     "fill": true,
+     "color": "#a9784a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 203,
+     "y": 60,
+     "r": 8,
+     "fill": true,
+     "color": "#a9784a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 130,
+     "r": 60,
+     "fill": true,
+     "color": "#a9784a",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 135,
+     "y": 125,
+     "r": 24,
+     "fill": true,
+     "color": "#f3e2c4",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 185,
+     "y": 125,
+     "r": 24,
+     "fill": true,
+     "color": "#f3e2c4",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 147,
+     "r": 8,
+     "fill": true,
+     "color": "#ffb030",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 135,
+     "y": 125,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 135,
+     "y": 130,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 127,
+     "y": 125,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 135,
+     "y": 126,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 126,
+     "y": 108,
+     "w": 18,
+     "h": 8,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 129,
+     "y": 119,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 129,
+     "y": 119,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 185,
+     "y": 125,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 185,
+     "y": 130,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 177,
+     "y": 125,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 185,
+     "y": 126,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 176,
+     "y": 108,
+     "w": 18,
+     "h": 8,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 179,
+     "y": 119,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 179,
+     "y": 119,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 153,
+     "r": 20,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 155,
+     "r": 16,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 150,
+     "y": 166,
+     "w": 20,
+     "h": 0,
+     "th": 4,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 177,
+     "r": 14,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 168,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 216,
+     "y": 105,
+     "r": 5,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 224,
+     "y": 65,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021e0205f603010701007a5a00000000000000000000000000003c330000000000000000000000000000c9ab18f786fd46299f8e0700100601f0ffff000000007b004b000d0000000144870000000000000000000700100601f0ffff0000000075003c00080000000144870000000000000000000700100601f0ffff00000000c5004b000d0000000144870000000000000000000700100601f0ffff00000000cb003c00080000000144870000000000000000000700100601f0ffff00000000a00082003c0000000144870000000000000000000700110601f0ffff0000000087007d00180000000144870000000000000000000700110601f0ffff00000000b9007d00180000000144870000000000000000000700120601f0ffff00000000a0009300080000000144870000000000000000000700130601f0ffff0000000087007d00060000000144870019030300000000000419131301f0ffff0400000087008200080003002064460019030400000000000800130601f0ffff000000007f007d00100000000044870319030200000000000700130601f0ffff0000000087007e00050000000144870019030100000000000800130601f0ffff000000007e006c00120008008044870219030100000000000800130601f0ffff00000000810077000c000c000044870319030000000000000800130601f0ffff00000000810077000c000c008044870319030000000000000700130601f0ffff00000000b9007d00060000000144870019030300000000000419131301f0ffff04000000b9008200080003002064460019030400000000000800130601f0ffff00000000b1007d00100000000044870319030200000000000700130601f0ffff00000000b9007e00050000000144870019030100000000000800130601f0ffff00000000b0006c00120008000044870219030100000000000800130601f0ffff00000000b30077000c000c000044870319030000000000000800130601f0ffff00000000b30077000c000c008044870319030000000000000419131301f0ffff04000000a000990014000400200b440019030400000000000419131301f0ffff04000000a0009b00100004002013340019030300000000000800130601f0ffff000000009600a600140000000044870419030200000000000419131301f0ffff04000000a000b1000e000400206f300019030100000000000700130601f0ffff00000000a000a800070000000444870319030000000000000700140601f0ffff00000000d8006900050000000144870019030100000000000100050601f000ff00000000e0004100000000000044870019030200000000000100040601f001ff00000000e000410000000000004487001903040000000000",
+  "pages": 1,
+  "file": []
+ },
+ "pet_froe": {
+  "design": {
+   "v": 2,
+   "name": "Pet froe",
+   "author": "NOVA",
+   "pages": 1,
+   "bg": "bg",
+   "items": [
+    {
+     "t": "circle",
+     "x": 125,
+     "y": 83,
+     "r": 23,
+     "fill": true,
+     "color": "#6fcf74",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 195,
+     "y": 83,
+     "r": 23,
+     "fill": true,
+     "color": "#6fcf74",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 130,
+     "r": 60,
+     "fill": true,
+     "color": "#6fcf74",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 125,
+     "y": 83,
+     "r": 16,
+     "fill": true,
+     "color": "#f4ffe6",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 118,
+     "y": 148,
+     "r": 8,
+     "fill": true,
+     "color": "#f59aa8",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 152,
+     "y": 131,
+     "r": 2,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 195,
+     "y": 83,
+     "r": 16,
+     "fill": true,
+     "color": "#f4ffe6",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 202,
+     "y": 148,
+     "r": 8,
+     "fill": true,
+     "color": "#f59aa8",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 168,
+     "y": 131,
+     "r": 2,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet"
+    },
+    {
+     "t": "circle",
+     "x": 125,
+     "y": 83,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 125,
+     "y": 88,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 117,
+     "y": 83,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 125,
+     "y": 84,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 116,
+     "y": 66,
+     "w": 18,
+     "h": 8,
+     "th": 2,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 119,
+     "y": 77,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 119,
+     "y": 77,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 195,
+     "y": 83,
+     "r": 6,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "arc",
+     "x": 195,
+     "y": 88,
+     "r": 8,
+     "th": 3,
+     "a0": 200,
+     "sweep": 140,
+     "src": "mood",
+     "max": 4,
+     "color": "#2b2b33",
+     "color2": "#2b2b33",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "line",
+     "x": 187,
+     "y": 83,
+     "w": 16,
+     "h": 0,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "circle",
+     "x": 195,
+     "y": 84,
+     "r": 5,
+     "fill": true,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 186,
+     "y": 66,
+     "w": 18,
+     "h": 8,
+     "th": 2,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "line",
+     "x": 189,
+     "y": 77,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "line",
+     "x": 189,
+     "y": 77,
+     "w": 12,
+     "h": 12,
+     "th": 3,
+     "color": "#2b2b33",
+     "rev": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 141,
+     "r": 28,
+     "th": 4,
+     "a0": 22,
+     "sweep": 136,
+     "src": "mood",
+     "max": 4,
+     "color": "#1d3a24",
+     "color2": "#1d3a24",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 143,
+     "r": 21,
+     "th": 4,
+     "a0": 38,
+     "sweep": 104,
+     "src": "mood",
+     "max": 4,
+     "color": "#1d3a24",
+     "color2": "#1d3a24",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 3
+     }
+    },
+    {
+     "t": "line",
+     "x": 146,
+     "y": 154,
+     "w": 28,
+     "h": 0,
+     "th": 4,
+     "color": "#1d3a24",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "arc",
+     "x": 160,
+     "y": 165,
+     "r": 19,
+     "th": 4,
+     "a0": 222,
+     "sweep": 96,
+     "src": "mood",
+     "max": 4,
+     "color": "#1d3a24",
+     "color2": "#1d3a24",
+     "caps": true,
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "circle",
+     "x": 160,
+     "y": 156,
+     "r": 7,
+     "border": true,
+     "th": 3,
+     "color": "#1d3a24",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 0
+     }
+    },
+    {
+     "t": "circle",
+     "x": 226,
+     "y": 63,
+     "r": 5,
+     "fill": true,
+     "color": "#8fd3ff",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 1
+     }
+    },
+    {
+     "t": "text",
+     "x": 230,
+     "y": 53,
+     "text": "zZ",
+     "font": "2",
+     "color": "dim",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 2
+     }
+    },
+    {
+     "t": "text",
+     "x": 230,
+     "y": 53,
+     "text": "<3",
+     "font": "2",
+     "color": "bad",
+     "grp": "pet",
+     "show": {
+      "src": "mood",
+      "op": "==",
+      "val": 4
+     }
+    }
+   ]
+  },
+  "ok": true,
+  "errors": [],
+  "hex": "4e57021f02061804010701007a5a00000000000000000000000000003c3300000000000000000000000000006e6efcf7d5f44629c4199f8e0700100601f0ffff000000007d005300170000000144870000000000000000000700100601f0ffff00000000c3005300170000000144870000000000000000000700100601f0ffff00000000a00082003c0000000144870000000000000000000700110601f0ffff000000007d005300100000000144870000000000000000000700120601f0ffff0000000076009400080000000144870000000000000000000700130601f0ffff0000000098008300020000000144870000000000000000000700110601f0ffff00000000c3005300100000000144870000000000000000000700120601f0ffff00000000ca009400080000000144870000000000000000000700130601f0ffff00000000a8008300020000000144870000000000000000000700130601f0ffff000000007d005300060000000144870019030300000000000419131301f0ffff040000007d005800080003002064460019030400000000000800130601f0ffff0000000075005300100000000044870319030200000000000700130601f0ffff000000007d005400050000000144870019030100000000000800130601f0ffff0000000074004200120008008044870219030100000000000800130601f0ffff0000000077004d000c000c000044870319030000000000000800130601f0ffff0000000077004d000c000c008044870319030000000000000700130601f0ffff00000000c3005300060000000144870019030300000000000419131301f0ffff04000000c3005800080003002064460019030400000000000800130601f0ffff00000000bb005300100000000044870319030200000000000700130601f0ffff00000000c3005400050000000144870019030100000000000800130601f0ffff00000000ba004200120008000044870219030100000000000800130601f0ffff00000000bd004d000c000c000044870319030000000000000800130601f0ffff00000000bd004d000c000c008044870319030000000000000419141401f0ffff04000000a0008d001c000400200b440019030400000000000419141401f0ffff04000000a0008f00150004002013340019030300000000000800140601f0ffff0000000092009a001c0000000044870419030200000000000419141401f0ffff04000000a000a50013000400206f300019030100000000000700140601f0ffff00000000a0009c00070000000444870319030000000000000700150601f0ffff00000000e2003f00050000000144870019030100000000000100050601f000ff00000000e6003500000000000044870019030200000000000100040601f001ff00000000e600350000000000004487001903040000000000",
+  "pages": 1,
+  "file": []
+ }
+}

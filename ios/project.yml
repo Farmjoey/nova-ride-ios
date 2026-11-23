@@ -1,0 +1,49 @@
+# XcodeGen project description: `xcodegen generate` makes NovaRide.xcodeproj (done by the GitHub workflow on a Mac).
+name: NovaRide
+options:
+  bundleIdPrefix: dk.novaride
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "3.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1"
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    ENABLE_PREVIEWS: NO
+targets:
+  NovaRide:
+    type: application
+    platform: iOS
+    sources:
+      - path: App                       # version 3: a native shell around the app the stick serves
+        excludes:
+          - Info.plist
+      - path: ../app/index.html          # copy of the web app, only for "Prøv demo uden stick"
+        buildPhase: resources
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: NOVA RIDE
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSLocalNetworkUsageDescription: "NOVA RIDE taler med din stick over stick'ens eget Wi-Fi (dashboard, lås, opdatering og live-data)."
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true      # the stick answers plain http on 192.168.4.1 (its own Wi-Fi, WPA2)
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dk.novaride.app
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
+schemes:
+  NovaRide:
+    build:
+      targets:
+        NovaRide: all
